@@ -26,7 +26,7 @@
   * There won't be a lot of traffic, so it's not needed.
 * Additional features: Chat
   * Users can communicate with each other.
-    
+
 ## Developer and Security Assumptions
 
 ## User/Admin/Anonymous Story Goes here
