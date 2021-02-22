@@ -10,8 +10,22 @@
 ##UI/UX Report
 
 ## Developer Report
+* Frontend: HTML, CSS, Javascript
+* Backend: Python
+* Web Framework: Django
 
 ## IT Infrastructure Report
+* OS: Ubuntu
+  * Compatible with database like MYSQL
+  * Open source OS; we can use it with other services as well
+* Database: MySQL
+  * Usage
+    * Store customer information and log in information
+    * Save data that customers upload
+* Caching layer: X
+  * There won't be a lot of traffic, so it's not needed.
+* Additional features: Chat
+  * Users can communicate with each other.
 
 ## Developer and Security Assumptions
 
@@ -35,3 +49,5 @@ This is text interspersed with mockups/screenshots (tell us a story and follow t
 </dl>
 
 ###Goals for Sprint 2
+
+###References
