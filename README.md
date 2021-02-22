@@ -1,7 +1,7 @@
 # 2021-team06r
 Private Repo for Group Work
 
-#Team members
+# Team members
 * Cristian Pintor: cpintor@@hawk.iit.edu
 * Grace Kwon: hkwon11@hawk.iit.edu
 * Hareem Akram: hakram@hawk.iit.edu
