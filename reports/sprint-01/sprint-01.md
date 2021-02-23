@@ -10,21 +10,42 @@
 ##UI/UX Report
 
 ## Developer Report
-* Frontend: HTML, CSS, Javascript
-* Backend: Python
-* Web Framework: Django
-
+* <b>Frontend: HTML, CSS, React.js</b>
+  * HTML & CSS
+    * Major players in the overall web design of the final product
+  * JavaScript
+    * Improves the user experience by taking a static webpage and turning it into a dynamic, interactive one
+    * Offers much more in terms of programming beyond aesthetics and ease of use
+* <b>Backend: Python</b>
+  * High efficiency, stability, and scope of development
+  * Great readability: blocks of code can be “inherited” (reused) throughout the program – both reducing clutter and the chances of error
+    * Inheritance + Python’s relatively simple syntax => faster development
+* <b>Web Framework: Django</b>
+  * Extensive libraries and functions that well-equip Python
+  * Used at Instagram and Spotify
+    * Instagram: primarily for photo management
+    * Spotify: overall backend development & data analytics
+  * Integrate well with our website's frontend technology
+  * Fully capable of being used in the backend development of a website
+    * Any features not present in the backend can be added in the frontend and still work seamlessly
+  * Extensive frameworks that improve the development experience
+    * <b>Our choice: React.js</b>
+      * Renders web pages quickly; elements and content are being loaded without a large delay
+        * Improves user experience
+        * Allows constant update of any dynamic elements that may be present on the website
+      * Created by Facebook
+        * Now used by Reddit, Notion.so and even Netflix
 ## IT Infrastructure Report
-* OS: Ubuntu
+* <b>OS: Ubuntu</b>
   * Compatible with database like MYSQL
   * Open source OS; we can use it with other services as well
-* Database: MySQL
+* <b>Database: MySQL</b>
   * Usage
     * Store customer information and log in information
     * Save data that customers upload
-* Caching layer: X
+* <b>Caching layer: X</b>
   * There won't be a lot of traffic, so it's not needed.
-* Additional features: Chat
+* <b>Additional features: Chat</b>
   * Users can communicate with each other.
 
 ## Developer and Security Assumptions
