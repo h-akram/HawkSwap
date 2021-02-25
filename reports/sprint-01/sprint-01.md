@@ -35,6 +35,7 @@
         * Allows constant update of any dynamic elements that may be present on the website
       * Created by Facebook
         * Now used by Reddit, Notion.so and even Netflix
+  
 ## IT Infrastructure Report
 * <b>OS: Ubuntu</b>
   * Compatible with database like MYSQL
@@ -49,7 +50,47 @@
   * Users can communicate with each other.
 
 ## Developer and Security Assumptions
-
+* <b>Security Vulnerabilities</b>
+  * Cross site scripting (XSS): XSS is a vulnerability that allows malicious injections through client-side scripts into a webpage to access data
+  * SQL injections: SQL injections that target vulnerabilities in databases in order to gain access, modify, or create new user permissions, or manipulate or destroy data
+  * Denial-of-Service (DoS) attacks: attackers overload a server or its surrounding infrastructure with different types of attack traffic to the point where the website becomes sluggish and denies new service requests from real users
+  * Data breach
+* <b>Protecting Our Web Application and Data</b>
+  * HTTPS & Encryption
+    * With HTTPS, data is transferred between a web browser and website
+    * HTTPS encrypts data using the Transport Layer Security (TLS) protocol
+    * Encryption occurs through the asymmetric public key infrastructure which uses a private and public key to encrypt and decrypt data
+  * How does this apply to our website?
+    * Use HTTPS to protect the transfer of data in our web application
+      * Prevents website information from being viewed by attackers
+      * Encrypts data traffic; any text package is illegible with random characters
+    * Self-signed SSL certificate instead of TLS/SSL certificates
+      * Implements encryption
+      * Useful for projects not in production
+      * Open SSL
+* <b>Authentication</b>
+  * Process that allows users to verify their identity to gain access to their accounts
+  * Recommendations
+    * Encourage users to create strong passwords
+    * Multi-factor authentication - requires a user to input a one-time access code sent via email or text
+    * Limit password attempts and rests by locking a user out of their account after a certain amount of failed login attempts
+      * Prevents any brute force attempts at hacking an account
+* <b>Web Application Firewall (WAF)</b>
+  * Protects a web app against malicious HTTP and HTTPS traffic
+  * Protects against vulnerabilities such as cross-site forgery, file inclusion, cross-site scripting, and SQL injection attacks
+  * Open source WAF
+    * ex) ModSecurity
+  * Disadvantages
+    * Only detects known vulnerabilities
+    * Not able to fix them
+      * Instead, it hides the vulnerabilities from the hacker by blocking the malicious requests
+* <b>Web Vulnerability Scanner</b>
+  * Scans websites to identify vulnerabilities and any security issues
+    * Cross-site scripting, SQL injections, command injections, etc.
+* <b>When to begin working on security?</b>
+  * Make sure that in every phase of our application development our security goals are met
+  * The earlier, the better
+  
 ## User/Admin/Anonymous Story Goes here
 
 This is text interspersed with mockups/screenshots (tell us a story and follow the flow of the application)
@@ -72,3 +113,11 @@ This is text interspersed with mockups/screenshots (tell us a story and follow t
 ###Goals for Sprint 2
 
 ###References
+* https://searchsecurity.techtarget.com/tip/How-to-encrypt-and-secure-a-website-using-HTTPS
+* https://support.google.com/domains/answer/7630973?hl=en
+* https://www.creativebloq.com/web-design/website-security-tips-protect-your-site-7122853
+* https://www.hostgator.com/blog/3-easy-steps-that-protect-your-website-from-hackers/
+* https://swoopnow.com/website-authentication/
+* https://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication
+* https://beaglesecurity.com/blog/article/how-to-store-and-secure-sensitive-data-in-web-applications.html
+* https://www.cloudflare.com/learning/security/what-is-web-application-security/
