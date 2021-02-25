@@ -108,7 +108,7 @@
   
 ## User/Admin/Anonymous Story Goes here
 * **Website Map**
-![Website Map](/diagrams/UI_UX/Website_Map.jpg){:width="100px"}
+<img src="/diagrams/UI_UX/Website_Map.jpg" alt="Website Map" width="100">
 * **UI/UX Prototypes**
 
 
