@@ -1,26 +1,28 @@
 #Sprint-01 Report
 
 ##Team Number 06
-* <b>Grace Kwon</b> - Project Manager
-* <b>Hareem Akram</b> - Developer
-* <b>Cristian Pintor</b> - Jr. Developer
-* <b>Rida Tariq</b> - UI/UX
-* <b>Muhammad Naveed Zahid</b> - IT Operations
+* **Grace Kwon** - Project Manager
+* **Hareem Akram** - Developer
+* **Cristian Pintor** - Jr. Developer
+* **Rida Tariq** - UI/UX
+* **Muhammad Naveed Zahid** - IT Operations
 
 ##UI/UX Report
+* **Website map**
+
 
 ## Developer Report
-* <b>Frontend: HTML, CSS, React.js</b>
+* **Frontend: HTML, CSS, React.js**
   * HTML & CSS
     * Major players in the overall web design of the final product
   * JavaScript
     * Improves the user experience by taking a static webpage and turning it into a dynamic, interactive one
     * Offers much more in terms of programming beyond aesthetics and ease of use
-* <b>Backend: Python</b>
+* **Backend: Python**
   * High efficiency, stability, and scope of development
   * Great readability: blocks of code can be “inherited” (reused) throughout the program – both reducing clutter and the chances of error
     * Inheritance + Python’s relatively simple syntax => faster development
-* <b>Web Framework: Django</b>
+* **Web Framework: Django**
   * Extensive libraries and functions that well-equip Python
   * Used at Instagram and Spotify
     * Instagram: primarily for photo management
@@ -37,25 +39,25 @@
         * Now used by Reddit, Notion.so and even Netflix
   
 ## IT Infrastructure Report
-* <b>OS: Ubuntu</b>
+* **OS: Ubuntu**
   * Compatible with database like MYSQL
   * Open source OS; we can use it with other services as well
-* <b>Database: MySQL</b>
+* **Database: MySQL**
   * Usage
     * Store customer information and log in information
     * Save data that customers upload
-* <b>Caching layer: X</b>
+* **Caching layer: X**
   * There won't be a lot of traffic, so it's not needed.
-* <b>Additional features: Chat</b>
+* **Additional features: Chat**
   * Users can communicate with each other.
 
 ## Developer and Security Assumptions
-* <b>Security Vulnerabilities</b>
+* **Security Vulnerabilities**
   * Cross site scripting (XSS): XSS is a vulnerability that allows malicious injections through client-side scripts into a webpage to access data
   * SQL injections: SQL injections that target vulnerabilities in databases in order to gain access, modify, or create new user permissions, or manipulate or destroy data
   * Denial-of-Service (DoS) attacks: attackers overload a server or its surrounding infrastructure with different types of attack traffic to the point where the website becomes sluggish and denies new service requests from real users
   * Data breach
-* <b>Protecting Our Web Application and Data</b>
+* **Protecting Our Web Application and Data**
   * HTTPS & Encryption
     * With HTTPS, data is transferred between a web browser and website
     * HTTPS encrypts data using the Transport Layer Security (TLS) protocol
@@ -68,14 +70,14 @@
       * Implements encryption
       * Useful for projects not in production
       * Open SSL
-* <b>Authentication</b>
+* **Authentication**
   * Process that allows users to verify their identity to gain access to their accounts
   * Recommendations
     * Encourage users to create strong passwords
     * Multi-factor authentication - requires a user to input a one-time access code sent via email or text
     * Limit password attempts and rests by locking a user out of their account after a certain amount of failed login attempts
       * Prevents any brute force attempts at hacking an account
-* <b>Web Application Firewall (WAF)</b>
+* **Web Application Firewall (WAF)**
   * Protects a web app against malicious HTTP and HTTPS traffic
   * Protects against vulnerabilities such as cross-site forgery, file inclusion, cross-site scripting, and SQL injection attacks
   * Open source WAF
@@ -84,10 +86,10 @@
     * Only detects known vulnerabilities
     * Not able to fix them
       * Instead, it hides the vulnerabilities from the hacker by blocking the malicious requests
-* <b>Web Vulnerability Scanner</b>
+* **Web Vulnerability Scanner**
   * Scans websites to identify vulnerabilities and any security issues
     * Cross-site scripting, SQL injections, command injections, etc.
-* <b>When to begin working on security?</b>
+* **When to begin working on security?**
   * Make sure that in every phase of our application development our security goals are met
   * The earlier, the better
   
