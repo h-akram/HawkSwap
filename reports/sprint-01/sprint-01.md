@@ -110,7 +110,18 @@
 * **Website Map**
 <img src="/diagrams/UI_UX/Website_Map.jpg" alt="Website Map" width="600">
 * **UI/UX Prototypes**
-
+1. Home
+<img src="/diagrams/UI_UX/Homepage.jpg" alt="Homepage" width="600">
+2. About Us
+<img src="/diagrams/UI_UX/About_Us.jpg" alt="About Us" width="600">
+3. Login / Sign Up
+<img src="/diagrams/UI_UX/SignUp_Login.jpg" alt="Login / Sign Up" width="600">
+4. Customer Account
+<img src="/diagrams/UI_UX/customer_account.jpg" alt="Customer Account" width="600">
+5. Sell Now
+<img src="/diagrams/UI_UX/sell_now.jpg" alt="Sell Now" width="600">
+6. Custom Product Request
+<img src="/diagrams/UI_UX/custom_product_request.jpg" alt="Custom Product Request" width="600">
 
 ## Project Manager Report
 ### Goals for Sprint 1
