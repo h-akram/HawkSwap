@@ -109,6 +109,7 @@
 ## User/Admin/Anonymous Story Goes here
 * **Website Map**
 <img src="/diagrams/UI_UX/website_map.jpg" alt="Website Map" width="600">
+
 * **UI/UX Prototypes**
 1. Home
 <img src="/diagrams/UI_UX/homepage.jpg" alt="Homepage" width="600">
@@ -117,7 +118,8 @@
 * Ability to navigate to other pages
 * Ability to search for items
 * Copyrights on the bottom
-2. About Us
+
+2 . About Us
 <img src="/diagrams/UI_UX/about_us.jpg" alt="About Us" width="600">
 * Our mission
 * Team members
