@@ -108,20 +108,41 @@
   
 ## User/Admin/Anonymous Story Goes here
 * **Website Map**
-<img src="/diagrams/UI_UX/Website_Map.jpg" alt="Website Map" width="600">
+<img src="/diagrams/UI_UX/website_map.jpg" alt="Website Map" width="600">
 * **UI/UX Prototypes**
 1. Home
-<img src="/diagrams/UI_UX/Homepage.jpg" alt="Homepage" width="600">
+<img src="/diagrams/UI_UX/homepage.jpg" alt="Homepage" width="600">
+* Logo & website name on the top
+* Brief introduction about the website
+* Ability to navigate to other pages
+* Ability to search for items
+* Copyrights on the bottom
 2. About Us
-<img src="/diagrams/UI_UX/About_Us.jpg" alt="About Us" width="600">
+<img src="/diagrams/UI_UX/about_us.jpg" alt="About Us" width="600">
+* Our mission
+* Team members
 3. Login / Sign Up
-<img src="/diagrams/UI_UX/SignUp_Login.jpg" alt="Login / Sign Up" width="600">
+<img src="/diagrams/UI_UX/signup_login.jpg" alt="Login / Sign Up" width="600">
+* Sign Up
+  * Basic info
+  * Username & Password
+* Login
+  * Username & Password
 4. Customer Account
 <img src="/diagrams/UI_UX/customer_account.jpg" alt="Customer Account" width="600">
+* Ability to view personal information
+* Ability to change
 5. Sell Now
 <img src="/diagrams/UI_UX/sell_now.jpg" alt="Sell Now" width="600">
+* Product info
+  * Title, description, (#tag), category, brand, condition, (color), price
+  * Picture
 6. Custom Product Request
 <img src="/diagrams/UI_UX/custom_product_request.jpg" alt="Custom Product Request" width="600">
+* Personal info
+  * Name, email, message
+* Item description
+  * Product type, date needed, (color, price range)
 
 ## Project Manager Report
 ### Goals for Sprint 1
