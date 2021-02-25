@@ -1,15 +1,28 @@
-#Sprint-01 Report
+# Sprint-01 Report
 
-##Team Number 06
+## Team Number 06
 * **Grace Kwon** - Project Manager
 * **Hareem Akram** - Developer
 * **Cristian Pintor** - Jr. Developer
 * **Rida Tariq** - UI/UX
 * **Muhammad Naveed Zahid** - IT Operations
 
-##UI/UX Report
-* **Website map**
-
+## UI/UX Report
+* **Website**
+  * Both mobile and desktop friendly
+* **Similar websites**
+  * https://www.daangn.com/
+  * https://www.olx.com.pk/
+* **How do similar websites work?**
+  * Parallel system for customers running side by side
+    * Sellers can upload their advertisements
+      * Included: title, description, picture, price
+    * Buyers can browse through the listing
+      * Browse through several alternatives
+      * Contact & negotiate with the seller, then purchase
+  * Interesting fact about OLX
+    * Conversation, bargaining, advances, and transactions remain between the buyer and seller only
+  * C2C (Consumer-to-Consumer) business model
 
 ## Developer Report
 * **Frontend: HTML, CSS, React.js**
@@ -94,23 +107,17 @@
   * The earlier, the better
   
 ## User/Admin/Anonymous Story Goes here
+![Website Map](/diagrams/UI_UX/Website_Map.jpg)
 
-This is text interspersed with mockups/screenshots (tell us a story and follow the flow of the application)
 
 ## Project Manager Report
 ###Goals for Sprint 1
-<dl>
-    <dt>1. Research and decide project idea - 02/11/21</dt>
-    <dd><ul>
-        <li>Research the 7 given options & other ideas</li>
-        <li>Decide project idea and requirements  - 02/11/21</li>
-    </ul></dd>
-    <dt>2. Research project specific needs - 02/18/21</dt>
-    <dd><ul>
-        <li>Research frontend & backend languages and web frameworks</li>
-        <li>Research connection (https etc.), login authentication, and data encryption</li>
-    </ul></dd>
-</dl>
+1. Research and decide project idea - 02/11/21</dt>
+  * Research the 7 given options & other ideas</li>
+  * Decide project idea and requirements  - 02/11/21</li>
+2. Research project specific needs - 02/18/21</dt>
+  * Research frontend & backend languages and web frameworks</li>
+  * Research connection (https etc.), login authentication, and data encryption</li>
 
 ###Goals for Sprint 2
 
