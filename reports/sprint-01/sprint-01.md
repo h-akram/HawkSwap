@@ -107,11 +107,13 @@
   * The earlier, the better
   
 ## User/Admin/Anonymous Story Goes here
-![Website Map](/diagrams/UI_UX/Website_Map.jpg)
+* **Website Map**
+![Website Map](/diagrams/UI_UX/Website_Map.jpg){:width="100px"}
+* **UI/UX Prototypes**
 
 
 ## Project Manager Report
-###Goals for Sprint 1
+### Goals for Sprint 1
 1. Research and decide project idea - 02/11/21</dt>
   * Research the 7 given options & other ideas</li>
   * Decide project idea and requirements  - 02/11/21</li>
@@ -119,9 +121,9 @@
   * Research frontend & backend languages and web frameworks</li>
   * Research connection (https etc.), login authentication, and data encryption</li>
 
-###Goals for Sprint 2
+### Goals for Sprint 2
 
-###References
+### References
 * https://searchsecurity.techtarget.com/tip/How-to-encrypt-and-secure-a-website-using-HTTPS
 * https://support.google.com/domains/answer/7630973?hl=en
 * https://www.creativebloq.com/web-design/website-security-tips-protect-your-site-7122853
