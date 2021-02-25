@@ -107,21 +107,34 @@
   * The earlier, the better
   
 ## User/Admin/Anonymous Story Goes here
-![Website Map](/diagrams/UI_UX/Website_Map.jpg)
-
+* **Website Map**
+<img src="/diagrams/UI_UX/Website_Map.jpg" alt="Website Map" width="600">
+* **UI/UX Prototypes**
+1. Home
+<img src="/diagrams/UI_UX/Homepage.jpg" alt="Homepage" width="600">
+2. About Us
+<img src="/diagrams/UI_UX/About_Us.jpg" alt="About Us" width="600">
+3. Login / Sign Up
+<img src="/diagrams/UI_UX/SignUp_Login.jpg" alt="Login / Sign Up" width="600">
+4. Customer Account
+<img src="/diagrams/UI_UX/customer_account.jpg" alt="Customer Account" width="600">
+5. Sell Now
+<img src="/diagrams/UI_UX/sell_now.jpg" alt="Sell Now" width="600">
+6. Custom Product Request
+<img src="/diagrams/UI_UX/custom_product_request.jpg" alt="Custom Product Request" width="600">
 
 ## Project Manager Report
-###Goals for Sprint 1
-1. Research and decide project idea - 02/11/21</dt>
-  * Research the 7 given options & other ideas</li>
-  * Decide project idea and requirements  - 02/11/21</li>
-2. Research project specific needs - 02/18/21</dt>
-  * Research frontend & backend languages and web frameworks</li>
-  * Research connection (https etc.), login authentication, and data encryption</li>
+### Goals for Sprint 1
+1. Research and decide project idea - 02/11/21
+  * Research the 7 given options & other ideas
+  * Decide project idea and requirements  - 02/11/21
+2. Research project specific needs - 02/18/21
+  * Research frontend & backend languages and web frameworks
+  * Research connection (https etc.), login authentication, and data encryption
 
-###Goals for Sprint 2
+### Goals for Sprint 2
 
-###References
+### References
 * https://searchsecurity.techtarget.com/tip/How-to-encrypt-and-secure-a-website-using-HTTPS
 * https://support.google.com/domains/answer/7630973?hl=en
 * https://www.creativebloq.com/web-design/website-security-tips-protect-your-site-7122853
