@@ -143,6 +143,12 @@
   * Name, email, message
 * Item description
   * Product type, date needed, (color, price range)
+7. Item Product Listings
+<img src="/diagrams/UI_UX/item_product_listings.jpg" alt="Item Product Listings" width="600">
+* Shows all the items on the website
+  * Image, title, and description
+* Ability to choose category
+* Ability to find item by searching
 
 ## Project Manager Report
 ### Goals for Sprint 1
@@ -159,11 +165,14 @@
   * Further research
   * Deliverables
 
+***All of these goals were accomplished in a timely manner.***
+
 ### Goals for Sprint 2
-1. Start making the website - backend & frontend
-2. Set up database
-3. Start implementing security
-4. 
+1. Set up Ubuntu
+2. Start making the website - backend & frontend
+3. Set up database
+4. Start implementing security
+5. Minor bug fixes
 
 ### References
 * https://searchsecurity.techtarget.com/tip/How-to-encrypt-and-secure-a-website-using-HTTPS
