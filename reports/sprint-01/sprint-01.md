@@ -107,32 +107,96 @@
   * The earlier, the better
   
 ## User/Admin/Anonymous Story Goes here
-* **Website Map**
-<img src="/diagrams/UI_UX/Website_Map.jpg" alt="Website Map" width="600">
-* **UI/UX Prototypes**
-1. Home
-<img src="/diagrams/UI_UX/Homepage.jpg" alt="Homepage" width="600">
-2. About Us
-<img src="/diagrams/UI_UX/About_Us.jpg" alt="About Us" width="600">
-3. Login / Sign Up
-<img src="/diagrams/UI_UX/SignUp_Login.jpg" alt="Login / Sign Up" width="600">
-4. Customer Account
+###Website Map
+<img src="/diagrams/UI_UX/website_map.jpg" alt="Website Map" width="600">
+
+###UI/UX Prototypes
+#### 1. Home
+<img src="/diagrams/UI_UX/homepage.jpg" alt="Homepage" width="600">
+
+* Logo & website name on the top
+* Brief introduction about the website
+* Ability to navigate to other pages
+* Ability to search for items
+* Copyrights on the bottom
+
+#### 2. About Us
+<img src="/diagrams/UI_UX/about_us.jpg" alt="About Us" width="600">
+
+* Our mission
+* Team members
+
+#### 3. Login / Sign Up
+<img src="/diagrams/UI_UX/signup_login.jpg" alt="Login / Sign Up" width="600">
+
+* Sign Up
+  * Basic info
+  * Username & Password
+* Login
+  * Username & Password
+
+#### 4. Customer Account
 <img src="/diagrams/UI_UX/customer_account.jpg" alt="Customer Account" width="600">
-5. Sell Now
+
+* Ability to view personal information
+* Ability to change
+
+#### 5. Sell Now
 <img src="/diagrams/UI_UX/sell_now.jpg" alt="Sell Now" width="600">
-6. Custom Product Request
+
+* Product info
+  * Title, description, (#tag), category, brand, condition, (color), price
+  * Picture
+
+#### 6. Custom Product Request
 <img src="/diagrams/UI_UX/custom_product_request.jpg" alt="Custom Product Request" width="600">
+
+* Personal info
+  * Name, email, message
+* Item description
+  * Product type, date needed, (color, price range)
+
+#### 7. Item Product Listings
+<img src="/diagrams/UI_UX/item_product_listings.jpg" alt="Item Product Listings" width="600">
+
+* Shows all the items on the website
+  * Image, title, and description
+* Ability to choose category
+* Ability to find item by searching
+
+#### 8. Item Product Info
+<img src="/diagrams/UI_UX/item_product_info.jpg" alt="Item Product Info" width="600">
+
+* Displays what was written on the "sell now" page
+* Ability to view seller
+  * Able to ask seller questions with chat or comments
+  * Able to make offer
+* Able to save and share
 
 ## Project Manager Report
 ### Goals for Sprint 1
-1. Research and decide project idea - 02/11/21
+#### _Week 1 (02/04 ~ 02/10): Research and decide project idea_
   * Research the 7 given options & other ideas
-  * Decide project idea and requirements  - 02/11/21
-2. Research project specific needs - 02/18/21
-  * Research frontend & backend languages and web frameworks
-  * Research connection (https etc.), login authentication, and data encryption
+  * Decide project idea and requirements
+  * Get everything set up (Slack, Trello, Github, etc.)
+#### _Week 2 (02/11 ~ 02/17): Research project specific needs_
+  * Developer: Research frontend & backend languages and web frameworks
+  * Jr. Developer: Research connection (https etc.), login authentication, and data encryption
+  * IT Operations: OS, database, caching later, chats & comments
+  * UI/UX: Website map, prototype
+  * Project Manager: Assist chat, updates, etc.
+#### _Week 3 (02/18 ~ 02/25): Further research on project needs & Deliverables_
+  * Further research
+  * Deliverables
+
+***All of these goals were accomplished in a timely manner.***
 
 ### Goals for Sprint 2
+1. Set up Ubuntu
+2. Start making the website - backend & frontend
+3. Set up database
+4. Start implementing security
+5. Minor bug fixes
 
 ### References
 * https://searchsecurity.techtarget.com/tip/How-to-encrypt-and-secure-a-website-using-HTTPS
