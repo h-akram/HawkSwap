@@ -107,10 +107,10 @@
   * The earlier, the better
   
 ## User/Admin/Anonymous Story Goes here
-###Website Map
+### Website Map
 <img src="/diagrams/UI_UX/website_map.jpg" alt="Website Map" width="600">
 
-###UI/UX Prototypes
+### UI/UX Prototypes
 #### 1. Home
 <img src="/diagrams/UI_UX/homepage.jpg" alt="Homepage" width="600">
 
