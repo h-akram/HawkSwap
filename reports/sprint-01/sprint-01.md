@@ -107,11 +107,11 @@
   * The earlier, the better
   
 ## User/Admin/Anonymous Story Goes here
-* **Website Map**
+###Website Map
 <img src="/diagrams/UI_UX/website_map.jpg" alt="Website Map" width="600">
 
-* **UI/UX Prototypes**
-1. Home
+###UI/UX Prototypes
+#### 1. Home
 <img src="/diagrams/UI_UX/homepage.jpg" alt="Homepage" width="600">
 
 * Logo & website name on the top
@@ -120,12 +120,13 @@
 * Ability to search for items
 * Copyrights on the bottom
 
-2. About Us
+#### 2. About Us
 <img src="/diagrams/UI_UX/about_us.jpg" alt="About Us" width="600">
+
 * Our mission
 * Team members
 
-3. Login / Sign Up
+#### 3. Login / Sign Up
 <img src="/diagrams/UI_UX/signup_login.jpg" alt="Login / Sign Up" width="600">
 
 * Sign Up
@@ -134,20 +135,20 @@
 * Login
   * Username & Password
 
-4. Customer Account
+#### 4. Customer Account
 <img src="/diagrams/UI_UX/customer_account.jpg" alt="Customer Account" width="600">
 
 * Ability to view personal information
 * Ability to change
 
-5. Sell Now
+#### 5. Sell Now
 <img src="/diagrams/UI_UX/sell_now.jpg" alt="Sell Now" width="600">
 
 * Product info
   * Title, description, (#tag), category, brand, condition, (color), price
   * Picture
 
-6. Custom Product Request
+#### 6. Custom Product Request
 <img src="/diagrams/UI_UX/custom_product_request.jpg" alt="Custom Product Request" width="600">
 
 * Personal info
@@ -155,7 +156,7 @@
 * Item description
   * Product type, date needed, (color, price range)
 
-7. Item Product Listings
+#### 7. Item Product Listings
 <img src="/diagrams/UI_UX/item_product_listings.jpg" alt="Item Product Listings" width="600">
 
 * Shows all the items on the website
@@ -163,11 +164,21 @@
 * Ability to choose category
 * Ability to find item by searching
 
+#### 8. Item Product Info
+<img src="/diagrams/UI_UX/item_product_info.jpg" alt="Item Product Info" width="600">
+
+* Displays what was written on the "sell now" page
+* Ability to view seller
+  * Able to ask seller questions with chat or comments
+  * Able to make offer
+* Able to save and share
+
 ## Project Manager Report
 ### Goals for Sprint 1
 #### _Week 1 (02/04 ~ 02/10): Research and decide project idea_
   * Research the 7 given options & other ideas
   * Decide project idea and requirements
+  * Get everything set up (Slack, Trello, Github, etc.)
 #### _Week 2 (02/11 ~ 02/17): Research project specific needs_
   * Developer: Research frontend & backend languages and web frameworks
   * Jr. Developer: Research connection (https etc.), login authentication, and data encryption
