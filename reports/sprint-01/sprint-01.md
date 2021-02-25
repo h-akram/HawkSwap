@@ -146,14 +146,24 @@
 
 ## Project Manager Report
 ### Goals for Sprint 1
-1. Research and decide project idea - 02/11/21
+#### _Week 1 (02/04 ~ 02/10): Research and decide project idea_
   * Research the 7 given options & other ideas
-  * Decide project idea and requirements  - 02/11/21
-2. Research project specific needs - 02/18/21
-  * Research frontend & backend languages and web frameworks
-  * Research connection (https etc.), login authentication, and data encryption
+  * Decide project idea and requirements
+#### _Week 2 (02/11 ~ 02/17): Research project specific needs_
+  * Developer: Research frontend & backend languages and web frameworks
+  * Jr. Developer: Research connection (https etc.), login authentication, and data encryption
+  * IT Operations: OS, database, caching later, chats & comments
+  * UI/UX: Website map, prototype
+  * Project Manager: Assist chat, updates, etc.
+#### _Week 3 (02/18 ~ 02/25): Further research on project needs & Deliverables_
+  * Further research
+  * Deliverables
 
 ### Goals for Sprint 2
+1. Start making the website - backend & frontend
+2. Set up database
+3. Start implementing security
+4. 
 
 ### References
 * https://searchsecurity.techtarget.com/tip/How-to-encrypt-and-secure-a-website-using-HTTPS
