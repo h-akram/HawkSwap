@@ -108,18 +108,18 @@
   
 ## User/Admin/Anonymous Story Goes here
 * **Website Map**
-<img src="/diagrams/UI_UX/Website_Map.jpg" alt="Website Map" width="100">
+<img src="/diagrams/UI_UX/Website_Map.jpg" alt="Website Map" width="600">
 * **UI/UX Prototypes**
 
 
 ## Project Manager Report
 ### Goals for Sprint 1
-1. Research and decide project idea - 02/11/21</dt>
-  * Research the 7 given options & other ideas</li>
-  * Decide project idea and requirements  - 02/11/21</li>
-2. Research project specific needs - 02/18/21</dt>
-  * Research frontend & backend languages and web frameworks</li>
-  * Research connection (https etc.), login authentication, and data encryption</li>
+1. Research and decide project idea - 02/11/21
+  * Research the 7 given options & other ideas
+  * Decide project idea and requirements  - 02/11/21
+2. Research project specific needs - 02/18/21
+  * Research frontend & backend languages and web frameworks
+  * Research connection (https etc.), login authentication, and data encryption
 
 ### Goals for Sprint 2
 
