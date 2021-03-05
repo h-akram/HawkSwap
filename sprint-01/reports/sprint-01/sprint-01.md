@@ -112,7 +112,7 @@
 
 ### UI/UX Prototypes
 #### 1. Home
-<img src="../diagrams/UI_UX/homepage.jpg" alt="Homepage" width="600">
+<img src="../../diagrams/UI_UX/homepage.jpg" alt="Homepage" width="600">
 
 * Logo & website name on the top
 * Brief introduction about the website
