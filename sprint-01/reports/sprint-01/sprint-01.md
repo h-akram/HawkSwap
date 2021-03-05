@@ -121,7 +121,7 @@
 * Copyrights on the bottom
 
 #### 2. About Us
-<img src="/diagrams/UI_UX/about_us.jpg" alt="About Us" width="600">
+<img src="../../diagrams/UI_UX/about_us.jpg" alt="About Us" width="600">
 
 * Our mission
 * Team members
