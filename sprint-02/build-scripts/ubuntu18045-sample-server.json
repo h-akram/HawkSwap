@@ -1,8 +1,8 @@
 {
   "builders": [
     {
-      "name": "sample-server",
-      "vm_name": "sample-server",
+      "name": "itmt430-g6",
+      "vm_name": "itmt430-g6",
       "type": "virtualbox-iso",
       "boot_command": [
         "<esc><wait>",
@@ -30,7 +30,7 @@
         "<enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 10000,
+      "disk_size": 20000,
       "guest_os_type": "Ubuntu_64",
       "http_directory" : ".",
       "http_port_min" : 9001,
@@ -59,7 +59,7 @@
   "provisioners": [
     {
     "type": "file",
-    "source": "./id_rsa_itmt430test",
+    "source": "./id_rsa_itmt430-g6",
     "destination": "/home/vagrant/"
     },
     {
@@ -73,11 +73,11 @@
       "inline": [
         "mkdir -p /home/vagrant/.ssh",
         "mkdir -p /root/.ssh",
-        "chmod 600 /home/vagrant/id_rsa_itmt430test",
-        "cp -v /home/vagrant/id_rsa_itmt430test /home/vagrant/.ssh/",
+        "chmod 600 /home/vagrant/id_rsa_itmt430-g6",
+        "cp -v /home/vagrant/id_rsa_itmt430-g6 /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /root/.ssh/",
-        "git clone git@github.com:illinoistech-itm/hakram.git"
+        "git clone git@github.com:illinoistech-itm/2021-team06r.git"
       ]
     },
     {
