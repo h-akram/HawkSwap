@@ -9,14 +9,14 @@ sudo npm install pm2@latest -g
 # To setup the Startup Script, copy/paste the following command:
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u vagrant --hp /home/vagrant
 
-# Change the ownership of your cloned repo -- CHANGE THIS FROM hakram to your private repo
-sudo chown -R vagrant:vagrant ~/hakram
+# Change the ownership of your cloned repo -- CHANGE THIS FROM 2021-team06r to your private repo
+sudo chown -R vagrant:vagrant ~/2021-team06r
 
 # Install needed dependency
 sudo npm install react react-scripts -g
 
 sudo chown -R vagrant:vagrant /home/vagrant/.pm2
-cd /home/vagrant/hakram/sprint-02/code/ReactMultiPageWebsite
+cd /home/vagrant/2021-team06r/sprint-02/code/ReactMultiPageWebsite
 # Get project dependencies (npm packages)
 sudo npm install
 # This will cause the app to autostart on subsequent reboots and launch the app on 192.168.33.33:3000
