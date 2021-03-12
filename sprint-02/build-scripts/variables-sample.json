@@ -1,7 +1,7 @@
 {
-    "webserver-one-ip": "192.168.33.x",
+    "webserver-one-ip": "192.168.255.255",
     "database-root-pw": "replaceme",
-    "database-access-range": "192.168.33.%",
+    "database-access-range": "192.168.255.255",
     "user-database-password": "replaceme",
-    "ubuntu-firewall-access-range":"192.168.33.x/24"
+    "ubuntu-firewall-access-range":"192.168.255.255/24"
 }
