@@ -77,4 +77,4 @@ sudo ufw app list
 sudo ufw disable && sudo ufw enable
 
 # connecting database
-CREATE DATABASE posts DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+# CREATE DATABASE posts DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
