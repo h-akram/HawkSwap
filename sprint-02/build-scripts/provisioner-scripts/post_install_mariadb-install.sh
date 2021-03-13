@@ -67,6 +67,8 @@ ufw allow from $FIREWALLACCESS to any port 3306
 
 # firewall access
 
+sudo -i
+ufw --force enable
 sudo ufw enable
 sudo ufw allow 22
 sudo ufw allow 3000
