@@ -12,7 +12,7 @@
 
 As a developer I had to create pages for the site based on the skeleton that were created. We were able to achieve that by using the template that was provided as we just modified the same template. The reason behind that is we did find some templates but when we replaced the code the machine will provide an error and that has been the case for our team this sprint. We got through that and customized the template as we wanted and created the front end. The Operation manager did have some issues setting up the machine as well so we consulted with the Professor and got that up as well then after that I went ahead and created the database by copying the script that was In there already as a sample. As of now we have a working frontend and the database but we didn’t unfortunately get the backend to work properly. We as a team decided to use Django and SQL as databases but we were not able to accomplish our backend with it. We followed a lot of instructions we found but when updated to the machine it will error out. I did report it to the project manager and we both tried and same issue and decided to change the language for the back end and more questions were raised so we planned to discuss this in today’s meeting and decide how our team would like to move further.
 
-<img src="../../diagrams/Picture1.png" alt="Website Map" width="600">
+<img src="/diagrams/Picture1.png" alt="Website Map" width="600">
 
 ## Junior Developer Report
 
