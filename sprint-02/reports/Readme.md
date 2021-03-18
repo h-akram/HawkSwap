@@ -25,7 +25,7 @@ As a developer I had to create pages for the site based on the skeleton that wer
 
 ## Junior Developer Report
 
-* **Task 1**
+### Task 1
 Create a non-root/admin user for the database activities following the concept of least privileges. In order to make the system more secure, it is needed to allow the users the only privileges that they need. For example, in an inventory database, the workers do not need to change the inventory states. Otherwise, it can be easily messed up as there may be thousands of workers and any of them can unintentionally change the record. Therefore, the system admin should restrict the root-user privileges to allow the workers to view but not edit/delete the database query. Generally, a user has all the privileges mentioned below.
 For example, the following command:
 
@@ -37,7 +37,7 @@ creates a user named worker in the server (the ip address of the server is store
 
 <img src="../diagrams/Picture2.png" alt="Website Map" width="600">
 
-* **Task 2**
+### Task 2
 
 The task is to automate the creation of firewall rules using UFW command on Ubuntu. The first step in securing the system is configuring a firewall and to do that we start with UFW (Uncomplicated Firewall) that is a user-friendly interface. It provides a simple way to configure a firewall which is a frontend for managing firewall rules in Ubuntu. This command is used through the command line, and aims to make firewall configuration easy (or, uncomplicated).
 We achieved the task in the following way. The command ufw –force enable will properly enable any services to start on boot--without manual intervention. Next, we allow the TCP connections to port 22 on all IPv4 addresses. We also allow access to Nodejs default port 3000 to setup connections. Finally, we checked the status by using the ufw status command. Below is the screenshot of the Ubuntu script. 
@@ -47,6 +47,8 @@ We achieved the task in the following way. The command ufw –force enable will 
 ## UI/UX Report
 
 Since we were not able to launch the login page, the UI/UX manager did more research on the Karma Abuse feature which we plan to implement into our web application for the items which will be sold on the site. This karma rating will allow users to know the ratiing of a product or a seller and how well their products are being reviewed. This way, shoppers can make their own decisions whetehr to trust the seller or not.
+
+The UI/UX manager also did research on MySQL and MySQL Workbench on how our chats will be stored in our databses. 
 
 ### Karma Abuse
   * Extra validation
@@ -71,4 +73,27 @@ Since we were not able to launch the login page, the UI/UX manager did more rese
 
 <img src="../diagrams/Picture5.png" alt="Website Map" width="600">
 
+## Project Manager report
 
+### Goals for Sprint 2
+#### _Week 4 (02/26 ~ 03/04)
+  * Assign sprint 2 roles
+  * Developer: develop login and sign-up skeletons
+  * Jr. Developer: assist IT Operations with setting up VM
+  * UI/UX: research on MySQL Server & Workbench
+
+#### _Week 5 (03/05 ~ 03/11)
+  * UI/UX: SQL schema for chat storage
+  * IT Operations: build machine
+  * Jr. Developer: Create non-root/admin user
+  * Developer: View changes on the browser after commiting code from ReactJs app
+  * UI/UX: Research more about how to store chats on the website to database
+  * Developer: Create login page using ReactJs
+
+#### _Week 6 (03/12 ~ 03/18)
+* UI/UX: Karma database schema
+* Everyone: set-up machine on local computer
+* UI/UX: karma database research
+* UI/UX: karma abuse research
+* Project manager: watch previous ReactJS lecture videos
+* Project manager: research MERN stack
