@@ -76,13 +76,13 @@ The UI/UX manager also did research on MySQL and MySQL Workbench on how our chat
 ## Project Manager report
 
 ### Goals for Sprint 2
-#### _Week 4 (02/26 ~ 03/04)
+#### Week 4 (02/26 ~ 03/04)
   * Assign sprint 2 roles
   * Developer: develop login and sign-up skeletons
   * Jr. Developer: assist IT Operations with setting up VM
   * UI/UX: research on MySQL Server & Workbench
 
-#### _Week 5 (03/05 ~ 03/11)
+#### Week 5 (03/05 ~ 03/11)
   * UI/UX: SQL schema for chat storage
   * IT Operations: build machine
   * Jr. Developer: Create non-root/admin user
@@ -90,10 +90,17 @@ The UI/UX manager also did research on MySQL and MySQL Workbench on how our chat
   * UI/UX: Research more about how to store chats on the website to database
   * Developer: Create login page using ReactJs
 
-#### _Week 6 (03/12 ~ 03/18)
+#### Week 6 (03/12 ~ 03/18)
 * UI/UX: Karma database schema
 * Everyone: set-up machine on local computer
 * UI/UX: karma database research
 * UI/UX: karma abuse research
 * Project manager: watch previous ReactJS lecture videos
 * Project manager: research MERN stack
+
+### Goals for sprint 3
+1. Finish setting up backend
+2. Create login page
+3. Complete user stories
+4. Work on firewall automation and databse
+5. Review user stories created by developers
