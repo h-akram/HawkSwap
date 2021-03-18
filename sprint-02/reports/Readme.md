@@ -77,6 +77,12 @@ The UI/UX manager also did research on MySQL and MySQL Workbench on how our chat
 
 ## Project Manager report
 
+Since we were not able to acomplish the goal for sprint 2 to create a login page with a backend working alongside our databsde, we will continue to work on this for sprint 3 along with the other tasks that that sprint includes. We hope to acomplish both the sprint 2 and sprint 3 goals in order to catch up with the project goals. 
+
+One of the issues we encountered when working on the backend was the unfamiliarity of Djnago since none of us had worked with that framework in the past. The developer did research and found some articles and videos on how to connect our ReactJS frontend a Djnago backend but was not successfull in connecting both frameworks. I then stepped to helper the developer and considered using another framework for our backend, such as Express.js with Node.js, and I was able to succesfully create a small working web app from a video tutorial but I then had some difficulty figuring out how to connect that backend to a datanse for our own project. 
+
+We then had a meeting before the recording of this report in order to figure out what the next steps should be for our project since we did not meet the sprint 2 goal. I brought up changing our backend to using a MERN stack, as the professor suggested, and the developer and junior developer, along with the UI/UX manager will work more closely together in case that the developer continues to have trouble building the backend.
+
 ### Goals for Sprint 2
 #### Week 4 (02/26 ~ 03/04)
   * Assign sprint 2 roles
