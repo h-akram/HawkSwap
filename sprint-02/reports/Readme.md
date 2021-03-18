@@ -34,6 +34,19 @@ We achieved the task in the following way. The command ufw –force enable will 
 
 <img src="../../diagrams/Picture3.png" alt="Website Map" width="600">
 
+## UI/UX Report
+
+Since we were not able to launch the login page, the UI/UX person did more research on the Karma Abuse feature which we plan to implement into our web application for the items which will be sold on the site. This karma rating will allow users to know the ratiing of a product or a seller and how well their products are being reviewed. This way, shoppers can make their own decisions whetehr to trust the seller or not.
+
+### Karma Abuse
+  * Extra validation
+    * Did the customer really buy the product?
+  * Comment moderation
+    * No comments will appear until the monitoring process is done (reviewed and approved)
+    * More time reviewing comments, but will improve user experience
+  * Spam bots?
+    * Validate user email
+      * School email (hawk email)
 
 
 
