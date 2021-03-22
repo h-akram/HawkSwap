@@ -8,4 +8,5 @@ id_rsa.pub
 *~
 .DS_Store
 variables.json
-build/
+db/
+frontend/
