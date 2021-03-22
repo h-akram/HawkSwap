@@ -1,5 +1,6 @@
 Set-Location -path ../../build/
 
-vagrant box add ./sample-server*.box --name sample-server
+vagrant box add ./frontend*.box --name frontend
+vagrant box add ./db*.box --name db
 
 Set-Location -path ../build-scripts/vagrantfile
