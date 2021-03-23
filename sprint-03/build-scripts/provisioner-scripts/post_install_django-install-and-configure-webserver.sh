@@ -41,9 +41,9 @@ django-admin startproject mysite
 # CHANGE THE VALUES ~/2021-team-sample TO YOUR TEAM REPO AND ADJUST THE PATH ACCORDINGLY     #
 # Adjust the paths below in line 35-37, and 44 and 46                                        #
 ##############################################################################################
-sudo chown -R vagrant:vagrant ~/2021-team-sample
+sudo chown -R vagrant:vagrant ~/2021-team06r
 
-sudo cp -v /home/vagrant/2021-team-sample/sprint-03/code/django/settings.py /home/vagrant/mysite/mysite/
+sudo cp -v /home/vagrant/2021-team06r/sprint-03/code/django/settings.py /home/vagrant/mysite/mysite/
 
 ##############################################################################################
 # Using sed to replace the blank settings value with the secret key
