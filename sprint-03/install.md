@@ -17,6 +17,14 @@ Then, create two directories - frontend and db. Run `vagrant init` command in ea
 `vagrant init frontend`
 `vagrant init backend`
 
+After running `vagrant init`, you have to modify a line in the two Vagrantfiles.
+Go to the frontend Vagrantfile:
+1. Uncomment line 35
+2. Change the IP address to 192.168.33.33
+Same for the backend:
+1. Uncomment line 35
+2. Change the IP address to 192.168.33.34
+
 To check if the boxes were added, you can run:
 `vagrant box list`
 
