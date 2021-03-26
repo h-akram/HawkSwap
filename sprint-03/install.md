@@ -9,11 +9,11 @@ To build the two VMs, run:
 `packer build --var-file ./variables.json .\ubuntu18045-itmt430-django-database.json`
 `packer build --var-file ./variables.json .\ubuntu18045-itmt430-django-webserver.json`
 
-After the build is complete, you need to do two things in the build directory.
-First, add the boxes by running `vagrant box add` command:
+After the build is complete, you need to do two things.
+First, in the build directory, add the boxes by running the `vagrant box add` command:
 `vagrant box add ./django-webserver*.box --name frontend`
 `vagrant box add ./django-database*.box --name backend`
-Then, create two directories - frontend and db. Run `vagrant init` command in each directory:
+Then, create two directories - frontend and backend - under build-scripts. Run the `vagrant init` command in each directory:
 `vagrant init frontend`
 `vagrant init backend`
 
