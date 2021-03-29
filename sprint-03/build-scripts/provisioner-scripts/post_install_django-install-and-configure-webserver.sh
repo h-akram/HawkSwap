@@ -8,7 +8,7 @@ echo "$DATABASESERVERIP    backend    backend.class.edu"    | sudo tee -a /etc/h
 ##############################################################################################
 # Install Django pre-reqs
 ##############################################################################################
-sudo apt-get install -y apache2 libexpat1 apache2-utils ssl-cert libapache2-mod-wsgi python3-dev python3-pip python3-setuptools
+sudo apt-get install -y libexpat1 ssl-cert python3-dev python3-pip python3-setuptools
 
 ##############################################################################################
 # Install Django mysqlclient library pre-reqs
@@ -31,6 +31,12 @@ echo "default-character-set = utf8" >> /home/vagrant/.my.cnf
 # Install Django
 ##############################################################################################
 python3 -m pip install django django-admin django-common
+
+###########################################################################
+# Django Backup and restore program
+########################################################################### 
+#https://pypi.org/project/django-dbbackup/
+python3 -m pip install django-dbbackup
 
 ##############################################################################################
 # Create Django project
@@ -58,9 +64,11 @@ sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagra
 python3 manage.py createsuperuser --noinput 
 
 ##############################################################################################
-# Create systemd start script to runserver at boot
+# Copy systemd start script to runserver at boot
 ##############################################################################################
-
+sudo cp -v ~/2021-team06r/sprint-03/code/django/django-server.service /lib/systemd/system/
+sudo systemctl enable django-server.service
+sudo systemctl start django-server.service
 
 ##############################################################################################
 # Set firewall section
