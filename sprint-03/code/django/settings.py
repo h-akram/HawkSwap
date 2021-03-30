@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
+        'HOST': '',
         'OPTIONS': {
             'read_default_file': '/home/vagrant/.my.cnf',
         },
