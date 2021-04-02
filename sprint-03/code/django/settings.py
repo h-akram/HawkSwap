@@ -22,7 +22,7 @@ SECRET_KEY = 'wt($cwh_fiadu6t4ry+-^nyr(_3*qd0as6446(6&f)-t%ouykv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.33.33']
 
 
 # Application definition
