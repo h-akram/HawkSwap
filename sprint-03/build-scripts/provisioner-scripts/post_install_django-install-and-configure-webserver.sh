@@ -55,9 +55,15 @@ sudo cp -v /home/vagrant/2021-team06r/sprint-03/code/django/settings.py /home/va
 # Using sed to replace the blank settings value with the secret key
 ##############################################################################################
 echo "Replacing default secret key: \n"
-sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = \'$DJANGOSECRETKEY\'/g" /home/vagrant/mysite/mysite/settings.py
-sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/mysite/mysite/settings.py
-sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/mysite/mysite/settings.py
+sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
+sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
+sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
+
+##############################################################################################
+# Overwriting default files from sed commands
+##############################################################################################
+cp -v /home/vagrant/2021-team06r/sprint-03/code/django/settings.py /home/vagrant/mysite/mysite
+sudo chown -R vagrant:vagrant mysite
 
 ##############################################################################################
 # Create super user account from the ENV variables we passed in
