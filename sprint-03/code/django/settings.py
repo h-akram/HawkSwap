@@ -23,7 +23,7 @@ SECRET_KEY = '6e85m=&-)ib_q&o)84++3)rz^yhr&y2w+6abq@)=fcnbeo@7$^'
 DEBUG = False
 
 ALLOWED_HOSTS = ['192.168.33.33']
-
+ 
 
 # Application definition
 
