@@ -44,6 +44,11 @@ python3 -m pip install django-dbbackup
 django-admin startproject mysite
 
 ##############################################################################################
+# Create the actual Django app
+##############################################################################################
+python manage.py startapp project
+
+##############################################################################################
 # CHANGE THE VALUES ~/2021-team-sample TO YOUR TEAM REPO AND ADJUST THE PATH ACCORDINGLY     #
 # Adjust the paths below in line 35-37, and 44 and 46                                        #
 ##############################################################################################
