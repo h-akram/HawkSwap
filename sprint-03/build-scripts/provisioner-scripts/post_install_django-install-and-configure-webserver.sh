@@ -68,14 +68,14 @@ sudo chown -R vagrant:vagrant mysite
 ##############################################################################################
 # Create super user account from the ENV variables we passed in
 ##############################################################################################
-python3 manage.py createsuperuser --noinput 
+python3 manage.py createsuperuser --noinput
 
 ##############################################################################################
 # Copy systemd start script to runserver at boot
 ##############################################################################################
 sudo cp -v ~/2021-team06r/sprint-03/code/django/django-server.service /lib/systemd/system/
-sudo systemctl enable django-server.service
-sudo systemctl start django-server.service
+sudo systemctl enable django-server
+sudo systemctl start django-server
 
 ##############################################################################################
 # Set firewall section
