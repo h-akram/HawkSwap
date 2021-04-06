@@ -74,8 +74,8 @@ python3 manage.py createsuperuser --noinput
 # Copy systemd start script to runserver at boot
 ##############################################################################################
 sudo cp -v ~/2021-team06r/sprint-03/code/django/django-server.service /lib/systemd/system/
-sudo systemctl enable django-server
-sudo systemctl start django-server
+sudo systemctl enable django-server.service
+sudo systemctl start django-server.service
 
 ##############################################################################################
 # Set firewall section
