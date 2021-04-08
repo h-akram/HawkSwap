@@ -46,6 +46,7 @@ django-admin startproject mysite
 ##############################################################################################
 # Create the actual Django app
 ##############################################################################################
+sudo mkdir /home/vagrant/mysite/project
 django-admin startapp project /home/vagrant/mysite/project
 
 ##############################################################################################
