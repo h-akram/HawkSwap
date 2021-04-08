@@ -93,7 +93,12 @@
       "ACCESSFROMIP={{user `database-access-range`}}",
       "USERPASS={{user `user-database-password`}}",
       "FIREWALLACCESS={{user `ubuntu-firewall-access-range`}}",
-      "DATABASENAME={{user `database-name`}}"
+      "DATABASENAME={{user `database-name`}}",
+      "CUSTOMER_TABLE_NAME={{user `customer-table-name`}}",
+      "ADDRESS_TABLE_NAME={{user `address-table-name`}}",
+      "KARMA_TABLE_NAME={{user `karma-table-name`}}",
+      "CHAT_TABLE_NAME={{user `chat-table-name`}}",
+      "CHAT_CONVERSATIONS_TABLE_NAME={{user `chat-conversations-table-name`}}"
     ]
   }
 ],
