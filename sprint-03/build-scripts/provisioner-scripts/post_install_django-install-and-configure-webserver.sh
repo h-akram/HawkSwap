@@ -44,6 +44,12 @@ python3 -m pip install django-dbbackup
 django-admin startproject mysite
 
 ##############################################################################################
+# Create the actual Django app
+##############################################################################################
+sudo mkdir /home/vagrant/mysite/project
+django-admin startapp project /home/vagrant/mysite/project
+
+##############################################################################################
 # CHANGE THE VALUES ~/2021-team-sample TO YOUR TEAM REPO AND ADJUST THE PATH ACCORDINGLY     #
 # Adjust the paths below in line 35-37, and 44 and 46                                        #
 ##############################################################################################
@@ -54,14 +60,22 @@ sudo cp -v /home/vagrant/2021-team06r/sprint-03/code/django/settings.py /home/va
 ##############################################################################################
 # Using sed to replace the blank settings value with the secret key
 ##############################################################################################
+echo "Replacing default secret key: \n"
+sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
+sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
+sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
 
-sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = \'$DJANGOSECRETKEY\'/g" /home/vagrant/mysite/mysite/settings.py
-sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/mysite/mysite/settings.py
+##############################################################################################
+# Overwriting default files from sed commands
+##############################################################################################
+cp -v /home/vagrant/2021-team06r/sprint-03/code/django/settings.py /home/vagrant/mysite/mysite
+sudo chown -R vagrant:vagrant mysite
 
 ##############################################################################################
 # Create super user account from the ENV variables we passed in
 ##############################################################################################
-python3 manage.py createsuperuser --noinput 
+python3 /home/vagrant/mysite/manage.py migrate
+python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 
 ##############################################################################################
 # Copy systemd start script to runserver at boot

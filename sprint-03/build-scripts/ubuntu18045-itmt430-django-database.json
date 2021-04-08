@@ -59,7 +59,7 @@
   "provisioners": [
     {
     "type": "file",
-    "source": "./id_rsa_github_team_repo_key_rtariq",
+    "source": "./id_rsa_itmt430-g6",
     "destination": "/home/vagrant/"
     },
     {
@@ -73,8 +73,8 @@
       "inline": [
         "mkdir -p /home/vagrant/.ssh",
         "mkdir -p /root/.ssh",
-        "chmod 600 /home/vagrant/id_rsa_github_team_repo_key_rtariq",
-        "cp -v /home/vagrant/id_rsa_github_team_repo_key_rtariq /home/vagrant/.ssh/",
+        "chmod 600 /home/vagrant/id_rsa_itmt430-g6",
+        "cp -v /home/vagrant/id_rsa_itmt430-g6 /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /root/.ssh/",
         "git clone git@github.com:illinoistech-itm/2021-team06r.git"
@@ -93,7 +93,12 @@
       "ACCESSFROMIP={{user `database-access-range`}}",
       "USERPASS={{user `user-database-password`}}",
       "FIREWALLACCESS={{user `ubuntu-firewall-access-range`}}",
-      "DATABASENAME={{user `database-name`}}"
+      "DATABASENAME={{user `database-name`}}",
+      "CUSTOMER_TABLE_NAME={{user `customer-table-name`}}",
+      "ADDRESS_TABLE_NAME={{user `address-table-name`}}",
+      "KARMA_TABLE_NAME={{user `karma-table-name`}}",
+      "CHAT_TABLE_NAME={{user `chat-table-name`}}",
+      "CHAT_CONVERSATIONS_TABLE_NAME={{user `chat-conversations-table-name`}}"
     ]
   }
 ],
