@@ -65,6 +65,8 @@ sed -i "s/\$DATABASENAME/$DATABASENAME/g" ~/2021-team06r/sprint-03/code/db-sampl
 sudo mysql -u root < ~/2021-team06r/sprint-03/code/db-samples/create-database.sql
 # This script will create the tables under posts in the mariadb server
 sudo mysql -u root < ~/2021-team06r/sprint-03/code/db-samples/create-table.sql
+# This script will insert records under posts in the mariadb server
+sudo mysql -u root < ~/2021-team06r/sprint-03/code/db-samples/insert-records.sql
 # This script will create the non-root user named worker and the user for replication
 sudo mysql -u root < ~/2021-team06r/sprint-03/code/db-samples/create-user-with-permissions-sample.sql
 
