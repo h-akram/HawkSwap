@@ -73,7 +73,7 @@ sudo chown -R vagrant:vagrant mysite
 ##############################################################################################
 # Create super user account from the ENV variables we passed in
 ##############################################################################################
-python3 manage.py createsuperuser --noinput
+python manage.py createsuperuser --noinput
 
 ##############################################################################################
 # Copy systemd start script to runserver at boot
