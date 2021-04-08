@@ -2,18 +2,6 @@
 
 USE posts;
 
-CREATE TABLE customer (
-    id INT NOT NULL UNIQUE AUTO_INCREMENT,
-    address_id INT NOT NULL,
-    name VARCHAR(45) NOT NULL,
-    email VARCHAR(45) NOT NULL,
-    phone_number VARCHAR(45) NOT NULL,
-    karma_id INT NOT NULL,
-    PRIMARY KEY (id),
-    FOREIGN KEY (address_id) REFERENCES address(id),
-    FOREIGN KEY (karma_id) REFERENCES karma(id)
-);
-
 CREATE TABLE address (
     id INT NOT NULL UNIQUE AUTO_INCREMENT,
     street_address VARCHAR(100) NOT NULL,
@@ -29,12 +17,24 @@ CREATE TABLE karma (
     PRIMARY KEY (id)
 );
 
+CREATE TABLE customer (
+    id INT NOT NULL UNIQUE AUTO_INCREMENT,
+    address_id INT NOT NULL,
+    name VARCHAR(45) NOT NULL,
+    email VARCHAR(45) NOT NULL,
+    phone_number VARCHAR(45) NOT NULL,
+    karma_id INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (address_id) REFERENCES address(id),
+    FOREIGN KEY (karma_id) REFERENCES karma(id)
+);
+
 CREATE TABLE chat (
     id INT NOT NULL UNIQUE AUTO_INCREMENT,
     PRIMARY KEY (id)
 );
 
-CREATE TABLE chat-conversations (
+CREATE TABLE chat_conversations (
     id INT NOT NULL UNIQUE AUTO_INCREMENT,
     chat_id INT NOT NULL,
     user_one INT NOT NULL,
