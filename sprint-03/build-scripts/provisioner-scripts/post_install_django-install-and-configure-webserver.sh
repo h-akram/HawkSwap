@@ -46,7 +46,7 @@ django-admin startproject mysite
 ##############################################################################################
 # Create the actual Django app
 ##############################################################################################
-django-admin startapp project /home/vagrant/mysite
+django-admin startapp project /home/vagrant/mysite/project
 
 ##############################################################################################
 # CHANGE THE VALUES ~/2021-team-sample TO YOUR TEAM REPO AND ADJUST THE PATH ACCORDINGLY     #
