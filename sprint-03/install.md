@@ -12,10 +12,10 @@ For the backend:
 `packer build --var-file ./variables.json .\ubuntu18045-itmt430-django-database.json`
 2) In the build directory, run:
 `vagrant box add ./django-database*.box --name backend`
-4) Make a backend directory under build-scripts.
-3) In the build-scripts/backend directory, run:
+3) Make a backend directory under build-scripts.
+4) In the build-scripts/backend directory, run:
 `vagrant init backend`
-4) Go to the Vagrantfile and:
+5) Go to the Vagrantfile and:
 1. Uncomment line 35
 2. Change the IP address to 192.168.33.34
 
@@ -24,12 +24,15 @@ Same for the frontend:
 `packer build --var-file ./variables.json .\ubuntu18045-itmt430-django-webserver.json`
 2) In the build directory, run:
 `vagrant box add ./django-webserver*.box --name frontend`
-4) Make a frontend directory under build-scripts.
-3) In the build-scripts/frontend directory, run:
+3) Make a frontend directory under build-scripts.
+4) In the build-scripts/frontend directory, run:
 `vagrant init frontend`
-4) Go to the Vagrantfile and:
+5) Go to the Vagrantfile and:
 1. Uncomment line 35
 2. Change the IP address to 192.168.33.33
+6) Once you're done, you should be able to connect to 192.168.33.33:8000/admin with your superuser username and password.
+
+* You should be able to see the tables under the database 'posts' and some of them will be populated.
 
 To check if the boxes were added, you can run:
 `vagrant box list`
