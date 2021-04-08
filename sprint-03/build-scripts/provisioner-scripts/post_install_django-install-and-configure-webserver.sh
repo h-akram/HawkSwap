@@ -46,7 +46,8 @@ django-admin startproject mysite
 ##############################################################################################
 # Create the actual Django app
 ##############################################################################################
-python3 manage.py startapp project
+cd /home/vagrant/mysite
+python3 /home/vagrant/mysite/manage.py startapp project
 
 ##############################################################################################
 # CHANGE THE VALUES ~/2021-team-sample TO YOUR TEAM REPO AND ADJUST THE PATH ACCORDINGLY     #
@@ -73,7 +74,7 @@ sudo chown -R vagrant:vagrant mysite
 ##############################################################################################
 # Create super user account from the ENV variables we passed in
 ##############################################################################################
-python3 manage.py createsuperuser --noinput
+python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 
 ##############################################################################################
 # Copy systemd start script to runserver at boot
