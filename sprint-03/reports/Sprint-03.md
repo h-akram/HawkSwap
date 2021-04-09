@@ -16,32 +16,50 @@ User stories needs to be included in the *diagrams* folder but **not** included 
 ### Infrastructure
 
 Using Packer and Vagrant you will begin to break your monolithic application up into at least 2 servers (frontend and backend)
+
 *	Using the host only network declared via Vagrant
     * 192.168.33 for frontend
-![*diagrams\frontend_ip.png*](../diagrams/frontend_ip.png "diagrams\frontend_ip.png")**Vagrantfile for frontend**
+
+![*diagrams\frontend_ip.png*](../diagrams/frontend_ip.png "diagrams\frontend_ip.png")
+
+**Vagrantfile for frontend**
+
 ![*diagrams\Django_Login.png*](../diagrams/Django_Login.png "diagrams\Django_Login.png")
+
 ![*diagrams\Django_Administration.png*](../diagrams/Django_Administration.png "diagrams\Django_Administration.png")
+
     *  192.168.33.34 for datastore/database
-![*diagrams\backend_ip.png*](../diagrams/backend_ip.png "diagrams\backend_ip.png")**Vagrantfile for backend (database)**
+
+![*diagrams\backend_ip.png*](../diagrams/backend_ip.png "diagrams\backend_ip.png")
+
+**Vagrantfile for backend (database)**
 
 *	Store your scripts in a code folder on your repo
 *	Update the install.md template file with build and install instructions
   *	This will include automated provisioning of all assumptions and secrets defined in the first sprint (firewall rules, admin accounts, user accounts, secrets/passwords, etc, etc
+
 **You can find detailed installation instructions from this link:**
 https://github.com/illinoistech-itm/2021-team06r/blob/main/sprint-03/install.md
+
 *	This will also require automated deployment of the ERD you created for your database and installation of the database product you chose. All of these steps will be automated.
+
 ![*diagrams\mariadb-show_tables-2.png*](../diagrams/mariadb-show_tables-2.png "diagrams\mariadb-show_tables-2.png") 
 
 **I updated create-table.sql as well as the according files so that the tables shown above are created - customer, address, karma, chat, chat_conversations. Some of them have been populated like this:**
+
 ![*diagrams\maria_db-select_from_address.png*](../diagrams/maria_db-select_from_address.png "diagrams\maria_db-select_from_address.png") 
+
 ![*diagrams\maria_db-select_from_karma.png*](../diagrams/maria_db-select_from_karma.png "diagrams\maria_db-select_from_karma.png") 
+
 ![*diagrams\maria_db-select_from_customer.png*](../diagrams/maria_db-select_from_customer.png "diagrams\maria_db-select_from_customer.png") 
+
 **This matches our previous ERD:**
-![*diagrams\mysql-database-schema.png*](../diagrams/mysql-database-schema.png "diagrams\mysql-database-schema.png") 
+
+![*diagrams\mysql-database-schema.png*](../diagrams/mysql-database-schema.png "diagrams\mysql-database-schema.png")
+
 The one missing table - product - was worked on by Cristian and it looks like this:
+
 ![*diagrams\maria_db-select_from_project_post.png*](../diagrams/maria_db-select_from_project_post.png "diagrams\maria_db-select_from_project_post.png") 
-
-
 
 ### Developer
 
