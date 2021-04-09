@@ -81,7 +81,46 @@ The one missing table - product - was worked on by Cristian and it looks like th
 
 ### Developer
 
-Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+Working user registration page and process
+
+When the user first goes into the site, they will be able to pick between the Login or Register buttons, if the user does not have an account, then the user can create an account through the Registration page. 
+
+User registration page:
+
+![*diagrams\user_registration_page.png*](../diagrams/user_registration_page.png "diagrams\user_registration_page.png")
+
+After the user has registered, they will see a registration message:
+
+![*diagrams\login_page.png*](../diagrams/login_page.png "diagrams\login_page.png")
+
+After registration, user can login back in and is first welcomed to the main page:
+
+![*diagrams\product_listing_page.png*](../diagrams/product_listing_page.png "diagrams\product_listing_page.png")
+
+If the user clicks the Profile link, they can view their profile:
+
+![*diagrams\user_profile.png*](../diagrams/user_profile.png "diagrams\user_profile.png")
+
+**Working user login (at least 3 accounts demonstrated)**
+
+These are 3 current user accounts:
+
+![*diagrams\3-current_user_accounts.png*](../diagrams/3-current_user_accounts.png "diagrams\3-current_user_accounts.png")
+
+Here are the profiles for each user listed above:
+
+![*diagrams\cpintor.png*](../diagrams/cpintor.png "diagrams\cpintor.png")
+
+![*diagrams\prof_jeremy.png*](../diagrams/prof_jeremy.png "diagrams\prof_jeremy.png")
+
+![*diagrams\naveed.png*](../diagrams/naveed.png "diagrams\naveed.png")
+
+One of them is an admin user, cpintor, and the rest are front-end users. The admin user can add new users in the backend, delete posts or create new ones. Unfortunately, we did not complete the functionality for front-end users to create posts, but we are currently working on it and should have it working by next sprint!
+
+**Create and identify to us at least 3 additional pages/functionalities**
+We currently have an About Page, which should inform the users about our website, we plan to add more pages as well. 
+
+![*diagrams\about_page.png*](../diagrams/about_page.png "diagrams\about_page.png")
 
 ### Junior Developer
 
