@@ -20,7 +20,7 @@ Using Packer and Vagrant you will begin to break your monolithic application up 
 * 192.168.33 for frontend
 
 
-![*Rida Tariq*](frontend_ip.png "Image of Rida Tariq")
+![*Rida Tariq*](../diagrams/frontend_ip.png "Image of Rida Tariq")
 
 Vagrantfile for frontend
 192.168.33.34 for datastore/database
