@@ -9,9 +9,27 @@
 
 ### UI/UX Artifacts
 
-Place links and or screenshots to minimum of **4** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+In this sprint we did make some changes from and we kind of started from scratch again as the things we decided in the last sprint were not able to work together easily. Definitely I would say that all of our team members went out of their way and helped each other but especially Cristian he did a great job to make sure everything is running smoothly. I was a UI/UX for this sprint and our page will be looking different then we had it in the diagrams as we are using a different language.. It’s just the design that will be different but the stuff is still the same. We have a register page and also the login page. They both are working and connected without any problems. 
 
-User stories needs to be included in the *diagrams* folder but **not** included in the report section under UI/UX
+The user story as a person who hasn’t seen the site before. When you land on the first page you will have a good color scheme. You have some tabs on the left side like home and about. On the right side we have a login and register button. You can go to the login page and if you don’t have an account you can just click the link below and it will take you to the registration page which is the same if you just register. After you login you are taken to your profile page you can update if needed. From there you can also post and delete a post if needed. This is what we have so far as this sprint required it. Moving forward we are planning on adding the comments section on the post so the user can communicate with each other regarding those posts. 
+
+As mentioned earlier the things the site is doing is similar to the diagrams but the design is different. 
+
+Log In Page:
+
+![*diagrams\login_page.png*](../diagrams/login_page.png "diagrams\login_page.png")
+
+Register page:
+
+![*diagrams\user_registration_page.png*](../diagrams/user_registration_page.png "diagrams\user_registration_page.png")
+
+Product listing page: 
+
+![*diagrams\product_listing_page.png*](../diagrams/product_listing_page.png "diagrams\product_listing_page.png")
+
+User profile:
+
+![*diagrams\another_user_profile.png*](../diagrams/another_user_profile.png "diagrams\another_user_profile.png")
 
 ### Infrastructure
 
@@ -72,7 +90,6 @@ For this sprint, the Junior Developer was responsible for two major things: tigh
 In order to increase security, the first task that needed to be done was to deny connections to the backend from every IP address but the frontend. We did this by running an uncomplicated firewall (ufw) allow command that would only let the frontend connect to the backend and deny all other connections. In order to further enhance security, the IP address was passed through as a variable, with the actual IP only being found in a variables.json file that remains local and is never pushed to the remote.
 
 To demonstrate that user accounts can be created and used in the application, we hard coded some test accounts into our build scripts with sample data that will populate the appropriate columns when the machine is built and run. Some of these values are dynamic (such as the karma rating of each user), and will be updated as needed once the application is up and running, and in use by those users and more.
-
 
 ### Project Manager
 
