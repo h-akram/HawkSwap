@@ -46,7 +46,7 @@ Using Packer and Vagrant you will begin to break your monolithic application up 
 
 ![*diagrams\Django_Administration.png*](../diagrams/Django_Administration.png "diagrams\Django_Administration.png")
 
-    *  192.168.33.34 for datastore/database
+**192.168.33.34 for datastore/database**
 
 ![*diagrams\backend_ip.png*](../diagrams/backend_ip.png "diagrams\backend_ip.png")
 
@@ -132,26 +132,59 @@ To demonstrate that user accounts can be created and used in the application, we
 
 ### Project Manager
 
-1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
-1. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
-1. Verify that all defined minimum goals were met and explain goals that were reached beyond what was defined.  Also explain reasons behind goals that were not met.
-1. List any detailed assumptions your team made explaining deliverable context as needed
+#### User and Admin Story
 
-### Goals for Sprint 3
-#### _Week 7 (03/19 ~ 03/25):
+Working user registration page and process
+
+When the user first goes into the site, they will be able to pick between the Login or Register buttons, if the user does not have an account, then the user can create an account through the Registration page. 
+
+User registration page:
+
+![*diagrams\user_registration_page.png*](../diagrams/user_registration_page.png "diagrams\user_registration_page.png")
+
+After the user has registered, they will see a registration message:
+
+![*diagrams\login_page.png*](../diagrams/login_page.png "diagrams\login_page.png")
+
+After registration, user can login back in and is first welcomed to the main page:
+
+![*diagrams\product_listing_page.png*](../diagrams/product_listing_page.png "diagrams\product_listing_page.png")
+
+If the user clicks the Profile link, they can view their profile:
+
+![*diagrams\user_profile.png*](../diagrams/user_profile.png "diagrams\user_profile.png")
+
+**Working user login (at least 3 accounts demonstrated)**
+
+These are 3 current user accounts:
+
+![*diagrams\3-current_user_accounts.png*](../diagrams/3-current_user_accounts.png "diagrams\3-current_user_accounts.png")
+
+Here are the profiles for each user listed above:
+
+![*diagrams\cpintor.png*](../diagrams/cpintor.png "diagrams\cpintor.png")
+
+![*diagrams\prof_jeremy.png*](../diagrams/prof_jeremy.png "diagrams\prof_jeremy.png")
+
+![*diagrams\naveed.png*](../diagrams/naveed.png "diagrams\naveed.png")
+
+One of them is an admin user, cpintor, and the rest are front-end users. The admin user can add new users in the backend, delete posts or create new ones. Unfortunately, we did not complete the functionality for front-end users to create posts, but we are currently working on it and should have it working by next sprint!
+
+#### Goals for Sprint 3
+##### _Week 7 (03/19 ~ 03/25):
   * Set up sprint 3 VM with frontend and db
   * Add Django and mariadb setup code got from jhajek repo
   * Get everything set up (Slack, Trello, Github, etc.)
   * Helping developer with setting up VM using Django
   * Setting Up two VMs using install.md file for sprint # 3
-#### _Week 8 (03/26 ~ 04/01):
+##### _Week 8 (03/26 ~ 04/01):
   * Comeup with company name or logo
   * Figuring out Why IT operator cannot connect to localhost even after builds are complete and the machines are up and running?
   * Change database to MySQL
   * Rebuild VM with working Django
   * Add create-table, insert-record using SQL
   * Connect frontend and backend database
-#### _Week 9 (04/02 ~ 04/08):
+##### _Week 9 (04/02 ~ 04/08):
   * Developer: Working user registration page and process. Identify 3 additional functionalities/pages
   * Jr. Developer: Create firewall rules and include the creation of 3 user accounts
   * IT Operations: Update the install.md template file and automated deployment of the ERD created for db
@@ -162,5 +195,8 @@ To demonstrate that user accounts can be created and used in the application, we
 
 ### References
 * https://www.youtube.com/watch?v=UmljXZIypDc
-* https://docs.djangoproject.com/en/3.1/intro/install/
+* https://www.youtube.com/watch?v=e1IyzVyrLSU
+* https://github.com/django/django
 * https://github.com/django-dbbackup
+* https://docs.djangoproject.com/en/3.1/intro/install/
+* https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction
