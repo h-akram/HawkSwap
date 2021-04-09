@@ -154,21 +154,7 @@ If the user clicks the Profile link, they can view their profile:
 
 ![*diagrams\user_profile.png*](../diagrams/user_profile.png "diagrams\user_profile.png")
 
-**Working user login (at least 3 accounts demonstrated)**
-
-These are 3 current user accounts:
-
-![*diagrams\3-current_user_accounts.png*](../diagrams/3-current_user_accounts.png "diagrams\3-current_user_accounts.png")
-
-Here are the profiles for each user listed above:
-
-![*diagrams\cpintor.png*](../diagrams/cpintor.png "diagrams\cpintor.png")
-
-![*diagrams\prof_jeremy.png*](../diagrams/prof_jeremy.png "diagrams\prof_jeremy.png")
-
-![*diagrams\naveed.png*](../diagrams/naveed.png "diagrams\naveed.png")
-
-One of them is an admin user, cpintor, and the rest are front-end users. The admin user can add new users in the backend, delete posts or create new ones. Unfortunately, we did not complete the functionality for front-end users to create posts, but we are currently working on it and should have it working by next sprint!
+ The admin user can add new users in the backend, delete posts or create new ones. Unfortunately, we did not complete the functionality for front-end users to create posts, but we are currently working on it and should have it working by next sprint!
 
 #### Goals for Sprint 3
 ##### _Week 7 (03/19 ~ 03/25):
@@ -192,6 +178,10 @@ One of them is an admin user, cpintor, and the rest are front-end users. The adm
   * Project Manager: Assist chat, updates, etc.
 
 ***All of the above goals were accomplished in a timely manner.***
+
+##### Tasks Inprogress
+* Admin User Story: The task is still incomplete because we lagged behind in Sprint 2. However, this time we completed building the VM for the frontend and backend servers. Our Django server was broken several times since somebody pushed the incomplete work in our Team repository. Unfortunately, we did not complete the functionality for front-end users to create posts, but we are currently working on it and should have it working by next sprint!
+* The frontend and backend servers are built but are not cloned by the other teammates. It is because the developer has the codes in the virtual machine but not on his own computer. We are unable to figure it out yet. 
 
 ### References
 * https://www.youtube.com/watch?v=UmljXZIypDc
