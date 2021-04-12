@@ -81,8 +81,8 @@ python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 # Copy systemd start script to runserver at boot
 ##############################################################################################
 sudo cp -v ~/2021-team06r/sprint-03/code/django/django-server.service /lib/systemd/system/
-sudo systemctl enable django-server.service
-sudo systemctl start django-server.service
+sudo systemctl enable ~/2021-team06r/sprint-03/code/django/django-server.servicedjango-server.service
+sudo systemctl start ~/2021-team06r/sprint-03/code/django/django-server.servicedjango-server.service
 
 ##############################################################################################
 # Set firewall section
