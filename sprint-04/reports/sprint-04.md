@@ -20,17 +20,18 @@ We were able to successfully complete the IT Operations and Infrastructure tasks
 
 ### Developer
 
-We fell short on the development front in the last sprint, and were not able to successfully demonstrate the creation of user accounts and posts. This sprint, we rectified that, and users can now sign up on the frontend and use those credentials to log in (previously, only accounts that had been hard coded were able to log in), and create, edit and delete their own posts. They can also edit their profiles by updating names, emails and adding profile pictures to replace the default Hawk logo.
+We fell short on the development front in the last sprint, and were not able to successfully demonstrate the creation of user accounts and posts. This sprint, we rectified that, and users can now sign up on the frontend and use those credentials to log in (previously, only accounts that had been hardcoded were able to log in), and create, edit and delete their own posts. They can also edit their profiles by updating names, emails and adding profile pictures to replace the default Hawk logo.
 
 **Screenshots**
 ![homepage with posts](../diagrams/homepage.png 'diagrams/homepage.png')
-![posts hardcoded into the build](../diagrams/hardcoded_posts_sql.png "diagrams/hardcoded_posts_sql.png")
 
 ### Junior Developer
 
-Place links and or screenshots to minimum of **4** artifacts here.  Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+Our junior developer was also able to complete most of their tasks for the previous sprint, with one notable exception being the user posts which are hardcoded into the build. Using the users we had included in our build previously, we were able to insert posts into our MySQL tables and display those on the frontend.
 
-Place screen shot to image of a minimum of 5 GitHub issues/bugs reported and assigned
+Here are images showing the backend and frontend for those posts (posts 2, 5 and 6 have been inserted into the backend, as indicated by the time/date values)
+![posts hardcoded into the build](../diagrams/hardcoded_posts_sql.png 'diagrams/hardcoded_posts_sql.png')
+![hardcoded posts on frontend](../diagrams/hardcoded_posts_frontend.png 'diagrams/hardcoded_posts_frontend.png')
 
 ### Project Manager
 
