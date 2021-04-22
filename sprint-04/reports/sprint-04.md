@@ -16,11 +16,11 @@ User stories needs to be included in the *diagrams* folder but **not** included 
 
 ### Infrastructure
 
-Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+Seeing how sprint 4 was essentially a continuation of sprint 3, our IT Operations and Infrastructure member did not have any tasks to complete since we were able to successfully split our application into two servers, and automate the build and deployment of these said servers. Instead, our IT Operations member assisted with some UI/UX tasks, namely the creation of user stories for our current and next sprints.
 
 ### Developer
 
-Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+We fell short on the development front in the last sprint, and were not able to successfully demonstrate the creation of user accounts and posts. This sprint, we rectified that, and users can now sign up on the frontend and use those credentials to log in (previously, only accounts that had been hard coded were able to log in)
 
 ### Junior Developer
 
