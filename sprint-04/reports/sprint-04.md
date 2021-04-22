@@ -21,6 +21,9 @@ We were able to successfully complete the IT Operations and Infrastructure tasks
 ### Developer
 
 
+*Screenshots*
+! [posts hardcoded into the build](diagrams/hardcoded_posts_sql.png)
+
 ### Junior Developer
 
 Place links and or screenshots to minimum of **4** artifacts here.  Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
