@@ -16,11 +16,10 @@ User stories needs to be included in the *diagrams* folder but **not** included 
 
 ### Infrastructure
 
-Seeing how sprint 4 was essentially a continuation of sprint 3, our IT Operations and Infrastructure member did not have any tasks to complete since we were able to successfully split our application into two servers, and automate the build and deployment of these said servers. Instead, our IT Operations member assisted with some UI/UX tasks, namely the creation of user stories for our current and next sprints.
+We were able to successfully complete the IT Operations and Infrastructure tasks in sprint 3 – our virtual machine was split into frontend and backend servers that would automatically build and deploy with all the variables we've chosen to keep local. Upon building, our Django web application and MySQL databases - as indicated in the ERD we created - are also automatically created and become immediately accessible. Therefore, the team member with this role for sprint 4 in turn assisted the UI/UX member and helped develop user stories that would indicate what our goals were for this current sprint as well as the next one.
 
 ### Developer
 
-We fell short on the development front in the last sprint, and were not able to successfully demonstrate the creation of user accounts and posts. This sprint, we rectified that, and users can now sign up on the frontend and use those credentials to log in (previously, only accounts that had been hard coded were able to log in)
 
 ### Junior Developer
 
@@ -33,4 +32,4 @@ Place screen shot to image of a minimum of 5 GitHub issues/bugs reported and ass
 1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
 1. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
 1. Verify that all defined minimum goals were met and explain goals that were reached beyond what was defined.  Also explain reasons behind goals that were not met.
-1. List any detailed assumptions your team made explaining deliverable context as needed.
+1. List any detailed assumptions your team made explaining deliverable context as needed
