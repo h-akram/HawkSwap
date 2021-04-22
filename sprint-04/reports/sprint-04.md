@@ -10,7 +10,7 @@
 
 ## UI/UX Artifacts
 
-The UI/UX role has two major tasks – ensuring that the application is in line with the user stories and artifacts we created in the first sprint (which have since been modified as our team sees fit for our project), and to test the application. In the previous sprint, as we were unable to fully meet the development goals, our UI/UX member focused on user stories, but for this current sprint they were able to not test the developed application, but also assisted worked with the developer and junior developer to make sure our goals were met.
+The UI/UX role has two major tasks – ensuring that the application is in line with the user stories and artifacts we created in the first sprint (which have since been modified as our team sees fit for our project), and to test the application. In the previous sprint, as we were unable to fully meet the development goals, our UI/UX member focused on user stories, but for this current sprint they were able to not only test the developed application, but also assisted worked with the developer and junior developer to make sure our goals were met.
 
 ## Infrastructure
 
