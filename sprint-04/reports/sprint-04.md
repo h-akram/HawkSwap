@@ -33,7 +33,7 @@ We fell short on the development front in the last sprint, and were not able to 
 ![creating a new post](../diagrams/new_post.png 'creating a new post')
 ![viewing your own post](../diagrams/single_post_author.png 'viewing your own post')
 ![deleting posts](../diagrams/Delete_Post.png 'deleting posts')
-![viewing someone else's post](../diagrams/single_post_view.png)
+![viewing someone else's post](../diagrams/single_post_view.png 'viewing someone's post')
 
 **User profile**
 ![editing user profile](../diagrams/user_profile.png 'editing user profile')
