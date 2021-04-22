@@ -2,6 +2,11 @@
 
 ## Team Number 06
 
+* **Hareem Akram** - Project Manager
+* **Grace Kwon** - Developer
+* **Muhammad Naveed Zahid** - Jr. Developer
+* **Cristian Pintor** - UI/UX
+* **Rida Tariq** - IT Operations
 
 ### UI/UX Artifacts
 
