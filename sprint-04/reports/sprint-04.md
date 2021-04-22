@@ -68,7 +68,7 @@ Our junior developer was also able to complete most of their tasks for the previ
 Our team was unable to meet our sprint 3 goals due to a setback we had in sprint 2, but we were able to take this time to regroup and remedy each issue we faced, one by one. Most of our problems lay on the development front as we struggled to get our website to function as per the project needs and our own team's wants, however, since most of the members in our team had for the most part completed their tasks from the previous sprint, everyone was able to focus on those major complications and resolve them.
 
 ### Goals for Sprint 5:
-1. Continue working on UI/UX to make the website look more interesting
+1. Continue working on UI/UX to make the website looks more interesting
 2. Insert images into posts so users do not have to click away and/or use external hosts for pictures
 3. Implement a karma system so sellers can trust buyers based off ratings, and vice versa
 4. Attempt to implement a chat and/or private messaging system so users do not have to rely on external platforms to buy/sell products
