@@ -64,3 +64,5 @@ Our junior developer was also able to complete most of their tasks for the previ
 - [x] Project Manager: Help wherever, assist with backend SQL tables/insertions, provide resources to team, etc
 
 ** *All these goals were met within the Sprint 4 timeframe.* **
+
+Our team was unable to meet our sprint 3 goals due to a setback we had in sprint 2, but we were able to take this time to regroup and remedy each issue we faced, one by one. Most of our problems lay on the development front as we struggled to get our website to function as per the project needs and our own team's wants, however, since most of the members in our team had for the most part completed their tasks from the previous sprint, everyone was able to focus on those major complications and resolve them.
