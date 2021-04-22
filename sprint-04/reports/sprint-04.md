@@ -22,7 +22,7 @@ We fell short on the development front in the last sprint, and were not able to 
 
 **Screenshots**
 *Homepage*
-![homepage with posts](../diagrams/homepage.png 'diagrams/homepage.png')
+![homepage with posts](../diagrams/homepage.png 'homepage with posts')
 
 *Sign up and Login pages*
 ![sign up page](../diagrams/sign_up.png 'diagrams/sign_up.png')
