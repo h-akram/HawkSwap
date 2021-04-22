@@ -21,7 +21,7 @@ Everything is almost on our site except the karma portion as that is something w
 
 As a Seller:
 * I want to be able to login on the website. So that I have access for seller student.
-* I want to be able to change user credentials on the website. So that I can change my password and id in case it is hacked or forgotten .
+* I want to be able to change user credentials on the website. So that I can change my password and id in case it is hacked or forgotten.
 * I want to be able to view and change user details on the website e.g., first, and last names and contact details. So that I can change my details in case they are changed.
 * I want to be able to view the feedback (karma) from buyers. So that I can improve accordingly or change my items.
 * I want to be able to retrieve my login details by pressing the link “Forgot Password?”. By receiving an email with a one-time-password (OTP). So, I can get a new password in case I forget.
