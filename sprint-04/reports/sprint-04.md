@@ -26,17 +26,17 @@ We fell short on the development front in the last sprint, and were not able to 
 ![homepage with posts](../diagrams/homepage.png 'homepage with posts')
 
 *Sign up and Login pages*
-![sign up page](../diagrams/sign_up.png 'diagrams/sign_up.png')
-![login page](../diagrams/login.png 'diagrams/login.png')
+![sign up page](../diagrams/sign_up.png 'sign up page')
+![login page](../diagrams/login.png 'login page')
 
 *Creating, editing/deleting and viewing posts*
-![creating a new post](../diagrams/new_post.png 'diagrams/new_post.png')
-![viewing your own post](../diagrams/single_post_author.png 'diagrams/single_post_author.png')
-![deleting posts](../diagrams/Delete_Post.png 'diagrams/Delete_Post.png')
-![viewing someone else's post](../diagrams/single_post_view.png 'diagrams/single_post_view.png')
+![creating a new post](../diagrams/new_post.png 'creating a new post')
+![viewing your own post](../diagrams/single_post_author.png 'viewing your own post')
+![deleting posts](../diagrams/Delete_Post.png 'deleting posts')
+![viewing someone else's post](../diagrams/single_post_view.png 'viewing someone else's post')
 
 *User profile*
-![editing user profile](../diagrams/user_profile.png 'diagrams/user_profile.png')
+![editing user profile](../diagrams/user_profile.png 'editing user profile')
 
 
 ### Junior Developer
@@ -44,8 +44,8 @@ We fell short on the development front in the last sprint, and were not able to 
 Our junior developer was also able to complete most of their tasks for the previous sprint, with one notable exception being the user posts which are hardcoded into the build. Using the users we had included in our build previously, we were able to insert posts into our MySQL tables and display those on the frontend.
 
 Here are images showing the backend and frontend for those posts (posts 2, 5 and 6 have been inserted into the backend, as indicated by the time/date values):
-![posts hardcoded into the build](../diagrams/sql_insert.png 'diagrams/sql_insert.png')
-![posts hardcoded into the build](../diagrams/hardcoded_posts_sql.png 'diagrams/hardcoded_posts_sql.png')
-![hardcoded posts on frontend](../diagrams/hardcoded_posts_frontend.png 'diagrams/hardcoded_posts_frontend.png')
+![posts hardcoded into the build](../diagrams/sql_insert.png 'posts hardcoded into the build - command')
+![posts hardcoded into the build](../diagrams/hardcoded_posts_sql.png 'posts hardcoded into the build - table')
+![hardcoded posts on frontend](../diagrams/hardcoded_posts_frontend.png 'hardcoded posts on frontend')
 
 ### Project Manager
