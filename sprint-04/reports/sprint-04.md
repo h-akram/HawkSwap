@@ -51,6 +51,16 @@ Our junior developer was also able to complete most of their tasks for the previ
 ## Project Manager
 
 ### Goals for Sprint 4
-**Week 10: 4/9 - 4/15**
+**Week 10 (4/9 - 4/15)** and **Week 11 (4/16 - 4/22)**
 - [x] Go over goals we were unable to meet for sprint 3 and develop plan to achieve those
 - [x] Assign new roles to team members and outline expectations for this sprint
+- [x] Rebuild VM as per new install.md file to ensure everyone can access the application
+- [x] Meet bi-weekly to check progress and reallocate resources as needed
+- [x] UI/UX: Develop at least 3 user stories and match user needs with website functionality
+- [x] Infrastructure: Act as a guide for team as they rebuild VMs
+- [x] Developer: Continue working on application to ensure login and sign up pages function as expected
+- [x] Developer: Demonstrate creation of user accounts and user posts
+- [x] Jr. Developer: Insert posts into backend to be built and deployed with the VM
+- [x] Project Manager: Help wherever, assist with backend SQL tables/insertions, provide resources to team, etc
+
+** *All these goals were met within the Sprint 4 timeframe.* **
