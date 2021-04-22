@@ -55,20 +55,20 @@ django-admin startapp project /home/vagrant/mysite/project
 ##############################################################################################
 sudo chown -R vagrant:vagrant ~/2021-team06r
 
-sudo cp -v /home/vagrant/2021-team06r/sprint-03/code/django/settings.py /home/vagrant/mysite/mysite/
+sudo cp -v /home/vagrant/2021-team06r/sprint-04/code/django/settings.py /home/vagrant/mysite/mysite/
 
 ##############################################################################################
 # Using sed to replace the blank settings value with the secret key
 ##############################################################################################
 echo "Replacing default secret key: \n"
-sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
-sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
-sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-03/code/django/settings.py
+sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-04/code/django/settings.py
+sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-04/code/django/settings.py
+sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-04/code/django/settings.py
 
 ##############################################################################################
 # Overwriting default files from sed commands
 ##############################################################################################
-cp -v /home/vagrant/2021-team06r/sprint-03/code/django/settings.py /home/vagrant/mysite/mysite
+cp -v /home/vagrant/2021-team06r/sprint-04/code/django/settings.py /home/vagrant/mysite/mysite
 sudo chown -R vagrant:vagrant mysite
 
 ##############################################################################################
@@ -80,7 +80,7 @@ python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 ##############################################################################################
 # Copy systemd start script to runserver at boot
 ##############################################################################################
-sudo cp -v ~/2021-team06r/sprint-03/code/django/django-server.service /lib/systemd/system/
+sudo cp -v ~/2021-team06r/sprint-04/code/django/django-server.service /lib/systemd/system/
 sudo systemctl enable django-server.service
 sudo systemctl start django-server.service
 
