@@ -10,9 +10,7 @@
 
 ### UI/UX Artifacts
 
-Place links and or screenshots to minimum of **4** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
-
-User stories needs to be included in the *diagrams* folder but **not** included in the report section under UI/UX
+For UI/UX
 
 ### Infrastructure
 
@@ -29,7 +27,8 @@ We fell short on the development front in the last sprint, and were not able to 
 
 Our junior developer was also able to complete most of their tasks for the previous sprint, with one notable exception being the user posts which are hardcoded into the build. Using the users we had included in our build previously, we were able to insert posts into our MySQL tables and display those on the frontend.
 
-Here are images showing the backend and frontend for those posts (posts 2, 5 and 6 have been inserted into the backend, as indicated by the time/date values)
+Here are images showing the backend and frontend for those posts (posts 2, 5 and 6 have been inserted into the backend, as indicated by the time/date values):
+![posts hardcoded into the build](../diagrams/sql_insert.png 'diagrams/sql_insert.png')
 ![posts hardcoded into the build](../diagrams/hardcoded_posts_sql.png 'diagrams/hardcoded_posts_sql.png')
 ![hardcoded posts on frontend](../diagrams/hardcoded_posts_frontend.png 'diagrams/hardcoded_posts_frontend.png')
 
