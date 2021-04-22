@@ -10,30 +10,27 @@
 
 ### UI/UX Artifacts
 
-- List all tasks that you have completed along with the artifacts proving they are complete (GitHub commit URL and Project Management artifact screenshot)
-- Show (screenshot with highlights) all UI/UX components added since sprint-03 for the User Story and give a short explanation of their function
-- Show (screenshot with highlights) all UI/UX components added since sprint-03 for the Admin Story and/or Anonymous user and give a short explanation of their function
+Place links and or screenshots to minimum of **4** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+
+User stories needs to be included in the *diagrams* folder but **not** included in the report section under UI/UX
 
 ### Infrastructure
 
-- List all tasks that you have completed along with the artifacts proving they are complete (GitHub commit URL and Project Management artifact screenshot)
-- Include in the *Diagrams* folder a diagram of all of the discrete servers and their IP addresses in your application (All systems need to be on a discrete server)
-- Include a script that will build each of these discrete systems as virtual machines automatically, include instructions how to do this in the ```install.md``` located in the root directory
-- Include a list of external packages being installed for this application via package manager
+Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
 
 ### Developer
 
-- List all tasks that you have completed along with the artifacts proving they are complete (GitHub commit URL and Project Management artifact screenshot)
-- Show in the scripts required to build the Infrastructure, add the ability to clone application source code from your private repo to your local application
-- Show the .sql schema file that creates your database.  If using MongoDB, show the JavaScript file.  Not a screen shot but put the code into the document.
-- Show that https is enabled using local self-signed certs
+Place links and or screenshots to minimum of **5** artifacts here. Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
 
 ### Junior Developer
 
-- List all tasks that you have completed along with the artifacts proving they are complete (GitHub commit URL and Project Management artifact screenshot)
-- Add screenshot of a minimum of 5 additional GitHub issues/bugs reported and assigned
+Place links and or screenshots to minimum of **4** artifacts here.  Artifacts are defined as GitHub commit URL and Project Management Tool Kanban board images (Trello or JIRA).
+
+Place screen shot to image of a minimum of 5 GitHub issues/bugs reported and assigned
 
 ### Project Manager
 
-- Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run your application
-- List any detailed assumptions your team made explaining deliverable context as needed
+1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
+1. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
+1. Verify that all defined minimum goals were met and explain goals that were reached beyond what was defined.  Also explain reasons behind goals that were not met.
+1. List any detailed assumptions your team made explaining deliverable context as needed
