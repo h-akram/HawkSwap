@@ -21,7 +21,22 @@ We were able to successfully complete the IT Operations and Infrastructure tasks
 We fell short on the development front in the last sprint, and were not able to successfully demonstrate the creation of user accounts and posts. This sprint, we rectified that, and users can now sign up on the frontend and use those credentials to log in (previously, only accounts that had been hardcoded were able to log in), and create, edit and delete their own posts. They can also edit their profiles by updating names, emails and adding profile pictures to replace the default Hawk logo.
 
 **Screenshots**
+*Homepage*
 ![homepage with posts](../diagrams/homepage.png 'diagrams/homepage.png')
+
+*Sign up and Login pages*
+![sign up page](../diagrams/sign_up.png 'diagrams/sign_up.png')
+![login page](../diagrams/login.png 'diagrams/login.png')
+
+*Creating, editing/deleting and viewing posts*
+![creating a new post](../diagrams/new_post.png 'diagrams/new_post.png')
+![viewing your own post](../diagrams/single_post_author.png 'diagrams/single_post_author.png')
+![deleting posts](../diagrams/Delete_Post.png 'diagrams/Delete_Post.png')
+![viewing someone else's post](../diagrams/single_post_view.png 'diagrams/single_post_view.png')
+
+*User profile*
+![editing user profile](../diagrams/user_profile.png 'diagrams/user_profile.png')
+
 
 ### Junior Developer
 
