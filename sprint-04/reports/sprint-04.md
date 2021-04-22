@@ -10,7 +10,7 @@
 
 ### UI/UX Artifacts
 
-For UI/UX
+The UI/UX role has two major tasks – ensuring that the application is in line with the user stories and artifacts we created in the first sprint (which have since been modified as our team sees fit for our project), and to test the application. In the previous sprint, as we were unable to fully meet the development goals, our UI/UX member focused on user stories, but for this current sprint they were able to not test the developed application, but also assisted worked with the developer and junior developer to make sure our goals were met.
 
 ### Infrastructure
 
@@ -33,8 +33,3 @@ Here are images showing the backend and frontend for those posts (posts 2, 5 and
 ![hardcoded posts on frontend](../diagrams/hardcoded_posts_frontend.png 'diagrams/hardcoded_posts_frontend.png')
 
 ### Project Manager
-
-1. Place images of the full User & Admin and/or anonymous story here with annotations of the functioning and the non-functioning portions as necessary (can reuse the artifact created by UI/UX)
-1. Include a file  ```install.md``` in the root of the team GitHub Repo detailing all instructions to build and run the functioning parts of your site
-1. Verify that all defined minimum goals were met and explain goals that were reached beyond what was defined.  Also explain reasons behind goals that were not met.
-1. List any detailed assumptions your team made explaining deliverable context as needed
