@@ -51,3 +51,6 @@ Our junior developer was also able to complete most of their tasks for the previ
 ## Project Manager
 
 ### Goals for Sprint 4
+**Week 10: 4/9 - 4/15**
+[x] Go over goals we were unable to meet for sprint 3 and develop plan to achieve those
+[x] Assign new roles to team members and outline expectations for this sprint
