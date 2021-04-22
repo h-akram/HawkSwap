@@ -18,8 +18,6 @@ For the backend:
 5) Go to the Vagrantfile and:
 1. Uncomment line 35
 2. Change the IP address to 192.168.33.34
-6) Start the backend VM before building the frontend:
-`vagrant up`
 
 Same for the frontend:
 1) In the build-scripts directory, run:
