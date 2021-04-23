@@ -1,7 +1,7 @@
 #
 [Unit]
 Description= Script to start the development Django server on boot​
-After=syslog.target network-online.target
+After=network.target
 
 [Service]
 Type=simple
