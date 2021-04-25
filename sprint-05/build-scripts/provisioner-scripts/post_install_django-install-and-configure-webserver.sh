@@ -63,14 +63,14 @@ sudo cp -v /home/vagrant/2021-team06r/sprint-05/code/django/settings.py /home/va
 # Using sed to replace the blank settings value with the secret key
 ##############################################################################################
 echo "Replacing default secret key: \n"
-sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-05/code/django/settings.py
-sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-05/code/django/settings.py
-sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-05/code/django/settings.py
+sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py
+sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py
+sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py
 
 ##############################################################################################
 # Overwriting default files from sed commands
 ##############################################################################################
-cp -v /home/vagrant/2021-team06r/sprint-05/code/django/settings.py /home/vagrant/mysite/mysite
+cp -v /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py /home/vagrant/mysite/mysite
 sudo chown -R vagrant:vagrant mysite
 
 ##############################################################################################
@@ -82,10 +82,10 @@ python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 ##############################################################################################
 # Copy folders
 ##############################################################################################
-sudo cp -v ~/2021-team06r/sprint-05/code/django/django_team6_prototype /home/vagrant/mysite/mysite
-sudo cp -v ~/2021-team06r/sprint-05/code/django/project /home/vagrant/mysite/project
-sudo cp -v ~/2021-team06r/sprint-05/code/django/users /home/vagrant/mysite/users
-sudo cp -v ~/2021-team06r/sprint-05/code/django/media /home/vagrant/mysite/media
+sudo cp -v -r ~/2021-team06r/sprint-05/code/django/django_team6_prototype /home/vagrant/mysite/mysite
+sudo cp -v -r ~/2021-team06r/sprint-05/code/django/project /home/vagrant/mysite/project
+sudo cp -v -r ~/2021-team06r/sprint-05/code/django/users /home/vagrant/mysite/users
+sudo cp -v -r ~/2021-team06r/sprint-05/code/django/media /home/vagrant/mysite/media
 
 ##############################################################################################
 # Copy systemd start script to runserver at boot

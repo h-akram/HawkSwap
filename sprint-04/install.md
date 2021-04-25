@@ -18,7 +18,7 @@ For the backend:
 5) Go to the Vagrantfile and:
 1. Uncomment line 35
 2. Change the IP address to 192.168.33.34
-6) Start the backend VM before building the frontend:
+6) Start the backend VM before building the frontend by running in the backend directory:
 `vagrant up`
 
 Same for the frontend:
@@ -32,7 +32,7 @@ Same for the frontend:
 5) Go to the Vagrantfile and:
 1. Uncomment line 35
 2. Change the IP address to 192.168.33.33
-6) Once you're done, you should be able to connect to 192.168.33.33:8000/admin with your superuser username and password.
+6) Once you're done, you should be able to connect to 192.168.33.33:8000 with your superuser username and password.
 
 * You should be able to see the tables under the database 'posts' and some of them will be populated.
 
