@@ -83,7 +83,7 @@ DATABASES = {
         'HOST': '',
         'OPTIONS': {
             'read_default_file': '/home/vagrant/.my.cnf',
-        };
+        },
     }
 }
 
