@@ -53,7 +53,7 @@ sudo chown -R vagrant:vagrant ~/2021-team06r
 # Here we are going to use the sed command to do a find and replace of placeholder variables
 # This is so we can dynamically create usernames and passwords and not have to hardcode these values
 # Using sed to replace variables in the scripts with the ENV variables passed
-sed -i "s/\$ACCESSFROMIP/$ACCESSFROMIP/g" ~/2021-team06r/sprint-5/code/db-samples/*.sql
+sed -i "s/\$ACCESSFROMIP/$ACCESSFROMIP/g" ~/2021-team06r/sprint-05/code/db-samples/*.sql
 sed -i "s/\$USERPASS/$USERPASS/g" ~/2021-team06r/sprint-05/code/db-samples/*.sql
 sed -i "s/\$DATABASENAME/$DATABASENAME/g" ~/2021-team06r/sprint-05/code/db-samples/*.sql
 ##############################################################################################

@@ -57,7 +57,7 @@ django-admin startapp project /home/vagrant/mysite/project
 ##############################################################################################
 sudo chown -R vagrant:vagrant ~/2021-team06r
 
-sudo cp -v /home/vagrant/2021-team06r/sprint-05/code/django/settings.py /home/vagrant/mysite/mysite/
+sudo cp -v /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py /home/vagrant/mysite/mysite/
 
 ##############################################################################################
 # Using sed to replace the blank settings value with the secret key
