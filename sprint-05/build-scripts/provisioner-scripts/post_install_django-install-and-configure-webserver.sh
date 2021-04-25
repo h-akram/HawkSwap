@@ -74,18 +74,18 @@ cp -v /home/vagrant/2021-team06r/sprint-05/code/django/mysite/settings.py /home/
 sudo chown -R vagrant:vagrant mysite
 
 ##############################################################################################
-# Create super user account from the ENV variables we passed in
-##############################################################################################
-python3 /home/vagrant/mysite/manage.py migrate
-python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
-
-##############################################################################################
 # Copy folders
 ##############################################################################################
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/mysite /home/vagrant/mysite/mysite
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/project /home/vagrant/mysite/project
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/users /home/vagrant/mysite/users
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/media /home/vagrant/mysite/media
+
+##############################################################################################
+# Create super user account from the ENV variables we passed in
+##############################################################################################
+python3 /home/vagrant/mysite/manage.py migrate
+python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 
 ##############################################################################################
 # Copy systemd start script to runserver at boot
