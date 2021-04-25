@@ -40,6 +40,9 @@ python3 -m pip install django-dbbackup
 
 python3 -m pip install pillow
 
+python3 /home/vagrant/mysite/manage.py makemigrations
+python3 /home/vagrant/mysite/manage.py migrate
+
 ##############################################################################################
 # Create Django project
 ##############################################################################################
