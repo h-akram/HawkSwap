@@ -40,9 +40,6 @@ python3 -m pip install django-dbbackup
 
 python3 -m pip install pillow
 
-python3 /home/vagrant/mysite/manage.py makemigrations
-python3 /home/vagrant/mysite/manage.py migrate
-
 ##############################################################################################
 # Create Django project
 ##############################################################################################
@@ -60,20 +57,20 @@ django-admin startapp project /home/vagrant/mysite/project
 ##############################################################################################
 sudo chown -R vagrant:vagrant ~/2021-team06r
 
-sudo cp -v /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py /home/vagrant/mysite/mysite/
+sudo cp -v /home/vagrant/2021-team06r/sprint-05/code/django/mysite/settings.py /home/vagrant/mysite/mysite/
 
 ##############################################################################################
 # Using sed to replace the blank settings value with the secret key
 ##############################################################################################
 echo "Replacing default secret key: \n"
-sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py
-sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py
-sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py
+sed -i "s/SECRET_KEY = \'\'/SECRET_KEY = '$DJANGOSECRETKEY\'/g" /home/vagrant/2021-team06r/sprint-05/code/django/mysite/settings.py
+sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = [\'$WEBSERVERIP'\]/g" /home/vagrant/2021-team06r/sprint-05/code/django/mysite/settings.py
+sed -i "s/'HOST': '',/'HOST': \'$DATABASESERVERIP\',/g" /home/vagrant/2021-team06r/sprint-05/code/django/mysite/settings.py
 
 ##############################################################################################
 # Overwriting default files from sed commands
 ##############################################################################################
-cp -v /home/vagrant/2021-team06r/sprint-05/code/django/django_team6_prototype/settings.py /home/vagrant/mysite/mysite
+cp -v /home/vagrant/2021-team06r/sprint-05/code/django/mysite/settings.py /home/vagrant/mysite/mysite
 sudo chown -R vagrant:vagrant mysite
 
 ##############################################################################################
