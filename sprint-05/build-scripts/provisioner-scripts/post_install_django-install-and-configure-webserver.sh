@@ -76,7 +76,6 @@ sudo chown -R vagrant:vagrant mysite
 ##############################################################################################
 # Create super user account from the ENV variables we passed in
 ##############################################################################################
-python3 /home/vagrant/mysite/manage.py makemigrations
 python3 /home/vagrant/mysite/manage.py migrate
 python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 
