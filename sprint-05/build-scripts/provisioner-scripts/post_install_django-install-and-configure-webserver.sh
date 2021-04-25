@@ -88,6 +88,9 @@ sudo cp -v -r ~/2021-team06r/sprint-05/code/django/project /home/vagrant/mysite/
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/users /home/vagrant/mysite/users
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/media /home/vagrant/mysite/media
 
+python3 /home/vagrant/mysite/manage.py makemigrations
+python3 /home/vagrant/mysite/manage.py migrate
+
 ##############################################################################################
 # Copy systemd start script to runserver at boot
 ##############################################################################################
