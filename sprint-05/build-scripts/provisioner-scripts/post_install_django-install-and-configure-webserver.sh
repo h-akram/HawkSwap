@@ -76,8 +76,8 @@ sudo chown -R vagrant:vagrant mysite
 ##############################################################################################
 # Copy folders
 ##############################################################################################
-sudo cp -v -r ~/2021-team06r/sprint-05/code/django/mysite /home/vagrant/mysite/mysite
-sudo cp -v -r ~/2021-team06r/sprint-05/code/django/project /home/vagrant/mysite/project
+sudo cp -v -r ~/2021-team06r/sprint-05/code/django/mysite /home/vagrant/mysite
+sudo cp -v -r ~/2021-team06r/sprint-05/code/django/project /home/vagrant/mysite
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/users /home/vagrant/mysite/users
 sudo cp -v -r ~/2021-team06r/sprint-05/code/django/media /home/vagrant/mysite/media
 
