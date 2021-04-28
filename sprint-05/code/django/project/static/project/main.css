@@ -84,55 +84,6 @@ a.article-title:hover {
 }
 
 /* https://www.codingnepalweb.com/2020/07/star-rating-system-in-html-css.html */
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-html,body{
-  display: grid;
-  height: 100%;
-  place-items: center;
-  text-align: center;
-  background: #000;
-}
-.container{
-  position: relative;
-  width: 400px;
-  background: #111;
-  padding: 20px 30px;
-  border: 1px solid #444;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.container .post{
-  display: none;
-}
-.container .text{
-  font-size: 25px;
-  color: #666;
-  font-weight: 500;
-}
-.container .edit{
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  font-size: 16px;
-  color: #666;
-  font-weight: 500;
-  cursor: pointer;
-}
-.container .edit:hover{
-  text-decoration: underline;
-}
-.container .star-widget input{
-  display: none;
-}
 .star-widget label{
   font-size: 40px;
   color: #444;
