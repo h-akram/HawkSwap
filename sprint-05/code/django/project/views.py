@@ -57,5 +57,8 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
             return True
         return False
 
+def karma(request):
+    return render(request, 'project/karma.html', {'title': 'User Rating'})
+
 def about(request):
     return render(request, 'project/about.html', {'title': 'About'})
