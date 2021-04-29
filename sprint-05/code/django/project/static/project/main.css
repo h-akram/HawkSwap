@@ -84,9 +84,6 @@ a.article-title:hover {
 }
 
 /* https://www.codingnepalweb.com/2020/07/star-rating-system-in-html-css.html */
-.container{
-  text-align: center;
-}
 .container .post{
   display: none;
 }
@@ -115,6 +112,8 @@ a.article-title:hover {
   color: #444;
   padding: 10px;
   transition: all 0.2s ease;
+  float:right;
+  width:20%;
 }
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
@@ -156,6 +155,7 @@ form header{
   margin: 5px 0 20px 0;
   text-align: center;
   transition: all 0.2s ease;
+  float:right;
 }
 form .textarea{
   height: 100px;
