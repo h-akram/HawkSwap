@@ -30,6 +30,8 @@
       </form>
     </div>
   </div>
+  {% endblock content %}
+  {% block extra_js %}
   <script>
     const btn = document.querySelector("button");
     const post = document.querySelector(".post");
@@ -45,4 +47,4 @@
       return false;
     }
   </script>
-{% endblock content %}
+{% endblock extra_js %}
