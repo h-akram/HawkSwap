@@ -147,7 +147,7 @@ input#rate-5:checked ~ label{
 input:checked ~ form{
   display: block;
 }
-form header{
+form .karma-form header{
   width: 100%;
   font-size: 25px;
   color: #fe7;
@@ -157,12 +157,12 @@ form header{
   transition: all 0.2s ease;
   float:right;
 }
-form .textarea{
+form .karma-form .textarea{
   height: 100px;
   width: 100%;
   overflow: hidden;
 }
-form .textarea textarea{
+form .karma-form .textarea textarea{
   height: 100%;
   width: 100%;
   outline: none;
@@ -174,12 +174,12 @@ form .textarea textarea{
 .textarea textarea:focus{
   border-color: #444;
 }
-form .btn{
+form .karma-form .btn{
   height: 45px;
   width: 100%;
   margin: 15px 0;
 }
-form .btn button{
+form .karma-form .btn button{
   height: 100%;
   width: 100%;
   border: 1px solid #444;
@@ -191,6 +191,6 @@ form .btn button{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-form .btn button:hover{
+form .karma-form .btn button:hover{
   background: #1b1b1b;
 }
