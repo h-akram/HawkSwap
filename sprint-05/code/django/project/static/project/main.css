@@ -85,16 +85,7 @@ a.article-title:hover {
 
 /* https://www.codingnepalweb.com/2020/07/star-rating-system-in-html-css.html */
 .container{
-  position: relative;
-  width: 400px;
-  background: #111;
-  padding: 20px 30px;
-  border: 1px solid #444;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  text-align: center;
 }
 .container .post{
   display: none;
@@ -123,7 +114,6 @@ a.article-title:hover {
   font-size: 40px;
   color: #444;
   padding: 10px;
-  float: right;
   transition: all 0.2s ease;
 }
 input:not(:checked) ~ label:hover,
@@ -178,7 +168,6 @@ form .textarea textarea{
   outline: none;
   color: #eee;
   border: 1px solid #333;
-  background: #222;
   padding: 10px;
   font-size: 17px;
   resize: none;
@@ -196,7 +185,6 @@ form .btn button{
   width: 100%;
   border: 1px solid #444;
   outline: none;
-  background: #222;
   color: #999;
   font-size: 17px;
   font-weight: 500;
