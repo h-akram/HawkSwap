@@ -84,14 +84,6 @@ a.article-title:hover {
 }
 
 /* https://www.codingnepalweb.com/2020/07/star-rating-system-in-html-css.html */
-.container .post{
-  display: none;
-}
-.container .text{
-  font-size: 25px;
-  color: #666;
-  font-weight: 500;
-}
 .container .edit{
   position: absolute;
   right: 10px;
@@ -141,13 +133,13 @@ input#rate-5:checked ~ label{
 #rate-5:checked ~ form header:before{
   content: "I just love it 😍";
 }
-.container form{
+.container form .karma-form {
   display: none;
 }
 input:checked ~ form{
   display: block;
 }
-form .karma-form header{
+form header{
   width: 100%;
   font-size: 25px;
   color: #fe7;
@@ -157,12 +149,12 @@ form .karma-form header{
   transition: all 0.2s ease;
   float:right;
 }
-form .karma-form .textarea{
+form .textarea{
   height: 100px;
   width: 100%;
   overflow: hidden;
 }
-form .karma-form .textarea textarea{
+form .textarea textarea{
   height: 100%;
   width: 100%;
   outline: none;
@@ -174,12 +166,12 @@ form .karma-form .textarea textarea{
 .textarea textarea:focus{
   border-color: #444;
 }
-form .karma-form .btn{
+form .btn{
   height: 45px;
   width: 100%;
   margin: 15px 0;
 }
-form .karma-form .btn button{
+form .btn button{
   height: 100%;
   width: 100%;
   border: 1px solid #444;
@@ -191,6 +183,6 @@ form .karma-form .btn button{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-form .karma-form .btn button:hover{
+form .btn button:hover{
   background: #1b1b1b;
 }
