@@ -7,7 +7,8 @@ from django.views.generic import (
     UpdateView,
     DeleteView
     )
-from .models import Post
+from .models import Post, Comment
+from .forms import CommentForm
 
 
 def home(request):
@@ -25,9 +26,19 @@ class PostListView(ListView):
 class PostDetailView(DetailView):
     model = Post
 
+class CommentView(CreateView):
+    model = Comment
+    success_url = '/'
+    form_class = CommentForm
+    template_name = 'project/comment_form.html'
+
+    def form_valid(self, form):
+        form.instance.post_id = self.kwargs['pk']
+        return super().form_valid(form)
+
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
-    fields = ['title', 'content']
+    fields = ['title', 'content', 'image']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -35,7 +46,7 @@ class PostCreateView(LoginRequiredMixin, CreateView):
 
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
-    fields = ['title', 'content']
+    fields = ['title', 'content', 'image']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -59,6 +70,6 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 def karma(request):
     return render(request, 'project/karma.html', {'title': 'User Rating'})
-
+    
 def about(request):
     return render(request, 'project/about.html', {'title': 'About'})

@@ -26,7 +26,7 @@ CREATE TABLE customer (
     karma_id INT NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (address_id) REFERENCES address(id),
-    FOREIGN KEY (karma_id) REFERENCES karma(id)
+    FOREIGN KEY (karma_id) REFERENCES project_karma(id)
 );
 
 CREATE TABLE chat (
