@@ -84,6 +84,7 @@ sudo cp -v -r ~/2021-team06r/sprint-05/code/django/media /home/vagrant/mysite/me
 ##############################################################################################
 # Create super user account from the ENV variables we passed in
 ##############################################################################################
+python3 /home/vagrant/mysite/manage.py makemigrations
 python3 /home/vagrant/mysite/manage.py migrate
 python3 /home/vagrant/mysite/manage.py createsuperuser --noinput
 
