@@ -32,7 +32,8 @@ Same for the frontend:
 5) Go to the Vagrantfile and:
 1. Uncomment line 35
 2. Change the IP address to 192.168.33.33
-6) Once you're done, you should be able to connect to 192.168.33.33:8000 with your superuser username and password.
+6) Once you're done, you will be able to see our website, Hawk Swap, at 192.168.33.33:8000.
+There, you can register, login, and explore our website!
 
 * You should be able to see the tables under the database 'posts' and some of them will be populated.
 
