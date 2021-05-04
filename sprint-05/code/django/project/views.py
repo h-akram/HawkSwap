@@ -7,7 +7,7 @@ from django.views.generic import (
     UpdateView,
     DeleteView
     )
-from .models import Post, Comment
+from .models import Post, Comment, Karma
 from .forms import CommentForm
 
 
@@ -68,8 +68,11 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
             return True
         return False
 
-def karma(request):
-    return render(request, 'project/karma.html', {'title': 'User Rating'})
+class KarmaView(CreateView):
+    model = Karma
+    success_url = '/'
+    template_name = 'project/karma.html'
+    fields=['name', 'karma']
     
 def about(request):
     return render(request, 'project/about.html', {'title': 'About'})

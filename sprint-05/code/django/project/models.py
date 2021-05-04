@@ -33,7 +33,9 @@ class Comment(models.Model):
         return 'Comment {} by {}'.format(self.body, self.name)
         
 class Karma(models.Model):
+    name = models.CharField(max_length=80)
     karma = models.FloatField()
+    rated_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.title
