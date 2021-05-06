@@ -9,19 +9,22 @@
 * **Cristian Pintor** - IT Operations
 
 ## UI/UX Artifacts
-
+Video : https://drive.google.com/drive/folders/1YzOofEuzei7GFXdNcjrnDFSvMyi80TlL
 
 ## Infrastructure
 
+Video : https://drive.google.com/drive/folders/1YzOofEuzei7GFXdNcjrnDFSvMyi80TlL
+
+
 
 ## Developer
-
+Video :
 
 
 
 ## Junior Developer
-
+Video : https://drive.google.com/drive/folders/1YzOofEuzei7GFXdNcjrnDFSvMyi80TlL
 
 
 ## Project Manager
-
+Video: https://drive.google.com/drive/folders/1YzOofEuzei7GFXdNcjrnDFSvMyi80TlL
