@@ -42,15 +42,19 @@ Video : https://drive.google.com/drive/folders/1YzOofEuzei7GFXdNcjrnDFSvMyi80TlL
 For this sprint, I contributed some of the last minute development work into the project, such as adding the image feature for posts as well as comments and a couple other small tasks like footer and sidebar links.
 
 View of comments under a post
+
 ![Screen Shot 2021-05-06 at 4 19 15 AM](https://user-images.githubusercontent.com/59890820/117274450-ae38a100-ae22-11eb-9c1b-0d673056ebd2.png)
 
 View of comment form
+
 ![Screen Shot 2021-05-06 at 4 20 00 AM](https://user-images.githubusercontent.com/59890820/117274491-b85a9f80-ae22-11eb-913c-86c04ed21a14.png)
 
 View of post with image of product
+
 ![Screen Shot 2021-05-06 at 4 20 15 AM](https://user-images.githubusercontent.com/59890820/117274504-bbee2680-ae22-11eb-9c2f-aacd135e8736.png)
 
 View post form with title, content and image fields
+
 ![Screen Shot 2021-05-06 at 4 20 22 AM](https://user-images.githubusercontent.com/59890820/117274515-bf81ad80-ae22-11eb-8a74-85fe6fbb7143.png)
 
 Infrastructure
@@ -67,8 +71,8 @@ We have two IP addresses:
 
 
 The two scripts that build the servers are:
--post_install_django-install-and-configure-webserver.sh
--post_install_django-install-and-configure-database.sh
+* post_install_django-install-and-configure-webserver.sh
+* post_install_django-install-and-configure-database.sh
 
 These two scripts install the database and framework used in our web application. Our install.md 
 
