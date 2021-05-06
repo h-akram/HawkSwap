@@ -113,6 +113,7 @@ Video : https://drive.google.com/drive/folders/1YzOofEuzei7GFXdNcjrnDFSvMyi80TlL
 This sprint, I worked on two things - karma and merging Cristian and my code to the team repo.
 
 Karma
+
 ![Screen Shot 2021-05-06 at 4 30 01 AM](https://user-images.githubusercontent.com/59890820/117275601-cf4dc180-ae23-11eb-8466-b093af875210.png)
 ![Screen Shot 2021-05-06 at 4 30 11 AM](https://user-images.githubusercontent.com/59890820/117275603-cfe65800-ae23-11eb-8fac-bad7de5b6af1.png)
 
