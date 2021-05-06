@@ -84,15 +84,22 @@ The main external package installed during the VM installation is the Django fra
 Video : https://drive.google.com/drive/folders/1YzOofEuzei7GFXdNcjrnDFSvMyi80TlL
 
 For sprint 5, my role is Developer, and I had the following responsibilities.
-  -List all tasks that you have completed along with the artifacts proving they are complete (GitHub commit URL and Project Management artifact  screenshot)
+
+  * List all tasks that you have completed along with the artifacts proving they are complete (GitHub commit URL and Project Management artifact  screenshot)
+  
+ 
 We were able to create the full running website with all of its web pages using the Django framework to successfully implement them into one application. Several databases were created along the way using MySQL to hold usernames, email addresses, passwords, item posts, question/answers, and pictures into separate databases. All of our group members individually created VMs and tested it to make sure it was doing all of the required tasks that were discussed so far in the previous sprints. With the assistance of IT operator and junior developer we were able to add a comments section, image feature for posts, and karma activity page to rate items afterwards. Certain functionalities of our Hawk Swap website are as follows:
--Registration and login pages for student users with some university resources.
--About page that has the brief explanation what this website is for
--Student personal account page where they can view or change username, profile image (to replace the default Hawk logo). 
--Moreover, users can upload item posts for sale with title, content, and image. There is an option to delete those posts as well.
--Different users like buyers and sellers can chat with each other through comments sections under each item listing.  
--Karma page where student users can rate and describe their experience.
--Main page where the user can see the item listings. Also, there is a sidebar along with different useful links such as latest university news, current academic calendar, and upcoming events.
+
+
+* Registration and login pages for student users with some university resources.
+* About page that has the brief explanation what this website is for
+* Student personal account page where they can view or change username, profile image (to replace the default Hawk logo). 
+* Moreover, users can upload item posts for sale with title, content, and image. There is an option to delete those posts as well.
+* Different users like buyers and sellers can chat with each other through comments sections under each item listing.  
+* Karma page where student users can rate and describe their experience.
+* Main page where the user can see the item listings. Also, there is a sidebar along with different useful links such as latest university news, current academic calendar, and upcoming events.
+
+
 ![Screen Shot 2021-05-06 at 4 06 21 AM](https://user-images.githubusercontent.com/59890820/117275021-3b7bf580-ae23-11eb-9e46-5d332fc4b26e.png)
 ![Screen Shot 2021-05-06 at 4 08 08 AM](https://user-images.githubusercontent.com/59890820/117275026-3cad2280-ae23-11eb-833c-28befbd77972.png)
 ![Screen Shot 2021-05-06 at 4 08 27 AM](https://user-images.githubusercontent.com/59890820/117275029-3d45b900-ae23-11eb-9c47-028beb3a6d6e.png)
@@ -120,6 +127,7 @@ https://github.com/illinoistech-itm/2021-team06r/commit/230a74a8f0e6e09991a768d5
 https://github.com/illinoistech-itm/2021-team06r/commit/97affb8d5ca8e574d018c0eb795fe1119033ce40
 Grace’s
 https://github.com/illinoistech-itm/2021-team06r/commit/2d4b1c85d4d358d35a3199a831065071809dd9eb
+
 etc. There were several commits.
 
 
